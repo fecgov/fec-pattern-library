@@ -1,0 +1,18 @@
+{
+    "title": "Example",
+    "default": "Primary",
+    "variants": [
+        {
+            "name": "Primary",
+            "context": {
+                "modifier": "primary"
+            }
+        },
+        {
+            "name": "Secondary",
+            "context": {
+                "modifier": "secondary"
+            }
+        }
+    ]
+}
