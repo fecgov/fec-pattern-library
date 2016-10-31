@@ -1,0 +1,23 @@
+{
+    "title": "Typography",
+    "variants": [
+      {
+        "name": "Primary background",
+        "context": {
+          "modifier": "primary"
+        }
+      },
+      {
+        "name": "Secondary background",
+        "context": {
+          "modifier": "secondary"
+        }
+      },
+      {
+        "name": "Neutral background",
+        "context": {
+          "modifier": "neutral"
+        }
+      }
+    ]
+}

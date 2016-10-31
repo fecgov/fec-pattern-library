@@ -1,0 +1,39 @@
+{
+    "title": "Slabs",
+    "default": "Neutral",
+    "context": {
+      "modifier": "slab--neutral"
+    },
+    "variants": [
+      {
+        "name": "Primary",
+        "context": {
+          "modifier": "slab--primary"
+        }
+      },
+      {
+        "name": "Secondary",
+        "context": {
+          "modifier": "slab--secondary"
+        }
+      },
+      {
+        "name": "Dark",
+        "context": {
+          "modifier": "slab--dark"
+        }
+      },
+      {
+        "name": "Spacious",
+        "context": {
+          "modifier": "slab--spacious slab--neutral"
+        }
+      },
+      {
+        "name": "Inline",
+        "context": {
+          "modifier": "slab--inline slab--neutral"
+        }
+      }
+    ]
+}

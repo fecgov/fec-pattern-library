@@ -1,0 +1,12 @@
+{
+    "title": "Accordions",
+    "default": "Neutral",
+    "variants": [
+      {
+        "name": "Inverse",
+        "context": {
+          "modifier": "accordion--inverse"
+        }
+      }
+    ]
+}

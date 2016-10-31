@@ -1,0 +1,33 @@
+{
+    "title": "Messages",
+    "default": "Success",
+    "context": {
+      "modifier": "message--success"
+    },
+    "variants": [
+      {
+        "name": "Error",
+        "context": {
+          "modifier": "message--error"
+        }
+      },
+      {
+        "name": "Alert",
+        "context": {
+          "modifier": "message--alert"
+        }
+      },
+      {
+        "name": "No icon",
+        "context": {
+          "modifier": "message--no-icon"
+        }
+      },
+      {
+        "name": "Info",
+        "context": {
+          "modifier": "message--info"
+        }
+      }
+    ]
+}
