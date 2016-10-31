@@ -19,4 +19,4 @@ Start the server
 fractal start --sync
 ```
 
-Learn more at [https://fractal.build](https://fractal.build)
+Learn more at [http://fractal.build](http://fractal.build)
