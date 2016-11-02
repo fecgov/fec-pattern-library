@@ -4,6 +4,12 @@ Install fractal CLI with:
 npm i -g @frctl/fractal
 ```
 
+Install dependencies:
+
+```
+npm install
+```
+
 Build the CSS
 ```
 npm run build-sass
