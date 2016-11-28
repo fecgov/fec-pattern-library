@@ -34,10 +34,16 @@ Build the JavScript:
 npm run build-js
 ```
 
-Start the server
+Run a local development server
 
 ```
 fractal start --sync
+```
+
+Build static version (viewable at /docs/index.html)
+
+```
+fractal build
 ```
 
 Learn more at [http://fractal.build](http://fractal.build)
