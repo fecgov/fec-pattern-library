@@ -1,0 +1,21 @@
+{
+    "title": "Simple table",
+    "default": "Simple table with rules",
+    "context": {
+      "modifier": "simple-table"
+    },
+    "variants": [
+      {
+        "name": "Responsive",
+        "context": {
+          "modifier": "simple-table--responsive"
+        }
+      },
+      {
+        "name": "Display",
+        "context": {
+          "modifier": "simple-table--display"
+        }
+      }
+    ]
+}

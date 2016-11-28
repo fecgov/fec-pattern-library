@@ -1,0 +1,40 @@
+<div class="slab slab--neutral" style="padding: 2rem">
+  <div class="filter js-filter" data-filter="range">
+    <fieldset class="filter" id="amount-field">
+      <legend class="label">Financial Range</legend>
+      <div class="range range--currency">
+        <div class="range__input range__input--min js-filter" data-filter="range">
+          <label for="min_name">From</label>
+          <input id="min_name" type="text" name="min_name" data-range="min" data-prefix="$" data-suffix="or more" tabindex="0">
+        </div>
+        <div class="range__hyphen">-</div>
+        <div class="range__input range__input--max js-filter" data-filter="range">
+          <label for="max_name">To</label>
+          <input id="max_name" type="text" name="max_name" data-range="max" data-prefix="$" data-suffix="or less" tabindex="0">
+        </div>
+        <button class="button--go button--standard" type="button">
+          <span class="u-visually-hidden">Search</span>
+        </button>
+      </div>
+    </fieldset>
+  </div>
+  <div class="filter js-filter" id="date" data-filter="range">
+    <fieldset>
+      <legend for="name" class="label">Date Range</legend>
+      <div class="range range--date js-date-range">
+        <div class="range__input range__input--min" data-filter="range">
+          <label for="min_name">Beginning</label>
+          <input type="text" id="min_name" name="min_name" data-range="min" data-removable="true" class="js-min-date" data-prefix="Beginning">
+        </div>
+        <div class="range__hyphen">-</div>
+        <div class="range__input range__input--max" data-filter="range">
+          <label for="max_name">Ending</label>
+          <input type="text" id="max_name" name="max_name" data-range="max" data-removable="true" class="js-max-date" data-prefix="Ending">
+        </div>
+        <button class="button--go button--standard" type="button">
+          <span class="u-visually-hidden">Search</span>
+        </button>
+      </div>
+    </fieldset>
+  </div>
+</div>

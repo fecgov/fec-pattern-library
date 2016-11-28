@@ -1,0 +1,15 @@
+{
+    "title": "Sidebar",
+    "default": "Blue background sidebar",
+    "context": {
+      "modifier": "sidebar--primary"
+    },
+    "variants": [
+      {
+        "name": "Crimson background sidebar",
+        "context": {
+          "modifier": "sidebar--secondary"
+        }
+      }
+    ]
+}

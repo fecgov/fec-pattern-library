@@ -1,0 +1,18 @@
+<section class="hero {{ modifier }} hero--primary">
+  <div class="hero__image"></div>
+  <div class="container">
+    {% if modifier == "hero--data" %}
+    <h1 id="hero-heading" class="hero__title">Campaign finance data</h1>
+    <p class="hero__content">See how candidates and committees raise and spend money in federal elections. This financial data helps voters make informed decisions.</p>
+    {% elif modifier == "hero--legal" %}
+    <h1 id="hero-heading" class="hero__title">Legal resources</h1>
+    <p class="hero__content">Explore relevant statutes, regulations, Commission actions and court cases. Making these resources public clarifies campaign finance legal requirements.</p>
+    {% elif modifier == "hero--registration" %}
+    <h1 id="hero-heading" class="hero__title">Registration and reporting</h1>
+    <p class="hero__content">Federal candidates and political committees must register with the FEC when they reach certain thresholds. Once registered, they file regular reports about their financial activity. Learn more about these groups and the requirements that apply to them.</p>
+    {% elif modifier == "hero--press" %}
+    <h1 id="hero-heading" class="hero__title">Press</h1>
+    <p class="hero__content">The Press Office educates reporters about Commission actions and campaign finance activity, law and regulations. The Office keeps the public up-to-date on Commission activities through press releases and a Weekly Digest.</p>
+    {% endif %}
+  </div>
+</section>
