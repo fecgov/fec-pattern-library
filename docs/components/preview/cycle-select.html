@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link media="all" rel="stylesheet" href="../../css/styles.css">
+    <link media="all" rel="stylesheet" href="../../css/pattern-library-styles.css">
+    <title>Preview Layout</title>
+</head>
+<body class="preview">
+<div class="container" style="padding: 2rem">
+  <div class="cycle-select">
+    <label class="cycle-select__label">Election:</label>
+    <select class="select--alt" name="cycle">
+      <option value="2016">2016</option>
+      <option value="2014">2014</option>
+      <option value="2012">2012</option>
+    </select>
+  </div>
+  <fieldset class="js-subcycle-select">
+    <legend class="cycle-select__label">Time period:</legend>
+    <div class="toggles">
+      <label>
+        <input type="radio" name="cycle-toggle" checked>
+        <span class="button--alt">
+          Full cycle: 2011–2016
+        </span>
+      </label>
+      <label>
+        <input type="radio" name="cycle-toggle">
+        <span class="button--alt">
+          2011–2012
+        </span>
+      </label>
+      <label>
+        <input type="radio" name="cycle-toggle">
+        <span class="button--alt">
+          2013–2014
+        </span>
+      </label>
+      <label>
+        <input type="radio" name="cycle-toggle">
+        <span class="button--alt is-disabled">
+          2015–2016
+        </span>
+      </label>
+    </div>
+  </fieldset>
+</div>
+
+
+</body>
+<script src="../../js/main.js"></script>
+</html>
+
