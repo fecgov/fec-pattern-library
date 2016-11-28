@@ -1,0 +1,27 @@
+{
+    "title": "Slabs",
+    "default": "Primary",
+    "context": {
+      "modifier": "slab--primary"
+    },
+    "variants": [
+      {
+        "name": "Secondary",
+        "context": {
+          "modifier": "slab--secondary"
+        }
+      },
+      {
+        "name": "Dark",
+        "context": {
+          "modifier": "slab--dark"
+        }
+      },
+      {
+        "name": "Neutral",
+        "context": {
+          "modifier": "slab--neutral"
+        }
+      }
+    ]
+}

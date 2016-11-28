@@ -1,0 +1,21 @@
+{
+    "title": "Forms",
+    "default": "Primary background",
+    "context": {
+      "modifier": "slab--neutral"
+    },
+    "variants": [
+      {
+        "name": "Secondary background",
+        "context": {
+          "modifier": "slab--primary"
+        }
+      },
+      {
+        "name": "Neutral background",
+        "context": {
+          "modifier": "slab--secondary"
+        }
+      }
+    ]
+}

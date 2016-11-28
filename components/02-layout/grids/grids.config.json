@@ -1,0 +1,22 @@
+{
+    "title": "Grids",
+    "default": "2 to a row",
+    "context": {
+      "modifier": "grid--2-wide"
+    },
+    "variants": [
+      {
+        "name": "3 to a row",
+        "context": {
+          "modifier": "grid--3-wide"
+        }
+      },
+      {
+        "name": "4 to a row",
+        "context": {
+          "modifier": "grid--4-wide"
+        }
+      }
+
+    ]
+}
