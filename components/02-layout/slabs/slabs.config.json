@@ -1,16 +1,10 @@
 {
     "title": "Slabs",
-    "default": "Neutral",
+    "default": "Primary",
     "context": {
-      "modifier": "slab--neutral"
+      "modifier": "slab--primary"
     },
     "variants": [
-      {
-        "name": "Primary",
-        "context": {
-          "modifier": "slab--primary"
-        }
-      },
       {
         "name": "Secondary",
         "context": {
@@ -24,15 +18,9 @@
         }
       },
       {
-        "name": "Spacious",
+        "name": "Neutral",
         "context": {
-          "modifier": "slab--spacious slab--neutral"
-        }
-      },
-      {
-        "name": "Inline",
-        "context": {
-          "modifier": "slab--inline slab--neutral"
+          "modifier": "slab--neutral"
         }
       }
     ]
