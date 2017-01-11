@@ -11,10 +11,13 @@
   "devDependencies": {
     "browserify": "^11.0.1",
     "gulp": "3.8.11",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "npm-run-all": "^4.0.0"
   },
   "scripts": {
+    "build": "npm-run-all --parallel build-*",
     "build-sass": "gulp build-sass",
-    "build-js": "browserify public/js/init.js > public/js/main.js"
+    "build-js": "browserify public/js/init.js > public/js/main.js",
+    "start": "fractal start --sync"
   }
 }
