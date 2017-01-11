@@ -19,6 +19,7 @@
     "build-sass": "gulp build-sass",
     "build-js": "browserify public/js/init.js > public/js/main.js",
     "build-library": "fractal build",
-    "start": "fractal start --sync"
+    "start": "fractal start --sync",
+    "test": "echo No tests to run; exit 0"
   }
 }

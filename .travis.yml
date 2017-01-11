@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+  - 6
+
+sudo: false
+
+env:
+  global:
+    - CF_DEPLOY_USER=fec_deployer
+    - secure: "ITJQk8mBsPy/HBBuBx5WJTrIdzI7L9GjRGXLm61Rwv21dy8QiCv856Th5reP2OE4C/i0vRhkrPwstC6k5iW8qVigJDNdj5JYnWm0mSe612wWC4D9jKHgTjieM0MT9jkz0GZTt9WWP7iQVoX/QobPT3hWQoAu+2X5gl+NnkDgntbGgeVaU/ypJRt8xmwRK+R466eMpPATNtBa0Psjpy3hX42C4+kuMquVzBNuyZwP+NX8JD5jtJ9Arq7MnfcCJ/c/UfsxUa7XN/4R7ngyh6qT08+MUd5JVuSCGlrfhgbe41LykEvBiy2CXOCbpLyH447CCqsC+Ec41VnFio7AbeSx2ABxehlvFmq6wDZcS3gEcKNcfK0/4lSPvC6S3alfnvos0zCpWHE6qmLGo7RTcWrRQtp1Py03WxoFB9oZ+mSGuBxW2EmgE/hKhzK/vt8LA0uH/aFW4WxqLggGvuXzc5YWIsKi/6aOxWhaq9dm27F4sKj9YPGqRhFlu9a0e0U8lrvsE6ppma4zKyn2mvNXhvjxVyLzg3FVARZZcJj30wyu7hisRkTOUjNMdlDH6nFOo2qIR7ZNoxI1nDBcinyhEMO3/DByU9ZeYpoU1v6vpvY7K8vqqM2B71zi/+/b14qLaMFmX1avg7GcRYjzrcUxQwPQEKgQQaw8lq4+G8eZKcpogUU=" # CF_DEPLOY_PASSWORD
+
+before_deploy:
+  - npm run build
+  - mkdir $HOME/bin
+  - export PATH=$HOME/bin:$PATH
+  - travis_retry curl -L "https://cli.run.pivotal.io/stable?release=linux64-binary&version=6.23.0" | tar xzv -C $HOME/bin
+  - travis_retry cf install-plugin autopilot -f -r CF-Community
+
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: ./bin/cf_deploy.sh fec-pattern-library fec dev
+    on:
+      branch: master
