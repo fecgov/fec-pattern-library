@@ -3,6 +3,6 @@ path: ./docs
 applications:
 - name: fec-pattern-library
   memory: 64M
-  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  buildpack: staticfile_buildpack
   env:
     FORCE_HTTPS: true
