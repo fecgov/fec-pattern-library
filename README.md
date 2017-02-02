@@ -9,6 +9,8 @@ The guide is broken down into sections according to SCSS directories on [fec-sty
 * Components
 * Modules
 
+It is also viewable online at: <https://fec-pattern-library.apps.cloud.gov/>
+
 ## Installation
 Install fractal CLI with:
 
