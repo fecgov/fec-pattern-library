@@ -128,4 +128,30 @@
       </aside>
     </div>
   {% endif %}
+
+  {% if modifier == 'card--major' %}
+  <div class="grid grid--3-wide" style="padding: 2rem 0">
+    <a class="grid__item card--major" href="#">
+      <div class="card--major__title">
+        <h2>Card title</h2>
+      </div>
+      <p>Sed posuere consectetur est at lobortis.</p>
+      <span class="t-sans card__count">10 results</span>
+    </a>
+    <a class="grid__item card--major" href="#">
+      <div class="card--major__title">
+        <h2>Card title</h2>
+      </div>
+      <p>Sed posuere consectetur est at lobortis.</p>
+      <span class="t-sans card__count">10 results</span>
+    </a>
+    <a class="grid__item card--major" href="#">
+      <div class="card--major__title">
+        <h2>Card title</h2>
+      </div>
+      <p>Sed posuere consectetur est at lobortis.</p>
+      <span class="t-sans card__count">10 results</span>
+    </a>
+  </div>
+  {% endif %}
 </div>

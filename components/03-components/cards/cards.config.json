@@ -22,6 +22,12 @@
         "context": {
           "modifier": "card--wide"
         }
+      },
+      {
+        "name": "Major",
+        "context": {
+          "modifier": "card--major"
+        }
       }
     ]
 }
