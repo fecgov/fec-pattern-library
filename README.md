@@ -24,22 +24,16 @@ Install dependencies:
 npm install
 ```
 
-Build the CSS
+Build the project
 
 ```
-npm run build-sass
-```
-
-Build the JavScript:
-
-```
-npm run build-js
+npm run build
 ```
 
 Start the server
 
 ```
-fractal start --sync
+npm run start
 ```
 
 Learn more at [http://fractal.build](http://fractal.build)
