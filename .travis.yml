@@ -6,8 +6,8 @@ sudo: false
 
 env:
   global:
-    - CF_DEPLOY_USER=fec_deployer
-    - secure: "ITJQk8mBsPy/HBBuBx5WJTrIdzI7L9GjRGXLm61Rwv21dy8QiCv856Th5reP2OE4C/i0vRhkrPwstC6k5iW8qVigJDNdj5JYnWm0mSe612wWC4D9jKHgTjieM0MT9jkz0GZTt9WWP7iQVoX/QobPT3hWQoAu+2X5gl+NnkDgntbGgeVaU/ypJRt8xmwRK+R466eMpPATNtBa0Psjpy3hX42C4+kuMquVzBNuyZwP+NX8JD5jtJ9Arq7MnfcCJ/c/UfsxUa7XN/4R7ngyh6qT08+MUd5JVuSCGlrfhgbe41LykEvBiy2CXOCbpLyH447CCqsC+Ec41VnFio7AbeSx2ABxehlvFmq6wDZcS3gEcKNcfK0/4lSPvC6S3alfnvos0zCpWHE6qmLGo7RTcWrRQtp1Py03WxoFB9oZ+mSGuBxW2EmgE/hKhzK/vt8LA0uH/aFW4WxqLggGvuXzc5YWIsKi/6aOxWhaq9dm27F4sKj9YPGqRhFlu9a0e0U8lrvsE6ppma4zKyn2mvNXhvjxVyLzg3FVARZZcJj30wyu7hisRkTOUjNMdlDH6nFOo2qIR7ZNoxI1nDBcinyhEMO3/DByU9ZeYpoU1v6vpvY7K8vqqM2B71zi/+/b14qLaMFmX1avg7GcRYjzrcUxQwPQEKgQQaw8lq4+G8eZKcpogUU=" # CF_DEPLOY_PASSWORD
+    - secure: "k1+Jxz/W2+H+OH+63CnOcDC98I5vZ3KDXogAkYbu4uoNaEfGdH6EumuvXzeI9LuA9mHDuUUe2/4W1a6Xs2qQbZ3DLZg2Hm/pnzfn4/n3SMp+SXwGIom7pbkUOUA2g9EJ5jkNxVENgU9EMkxa8IMHKyc+NlLdTbVScXAGskdBxfs0/aSIPpb38JowYJgIBlui3mQoEFEr6x1Pp/dynt6ZIvDBNZLqct1Fp8Q/z9FQewkKwMjEwzFYJ0BPYt2eIp9frpO1dWTiNRZXIJVwh3z1dysN4x71744AYWoFIb0+hIl5ebSrwReUg0nxJ4OKkqIeTkO+6mxnd+x/U2Ga6CYUeIjQSpmNGr3RQK/3PvnJZiBbAdziwMv9kV8FG4h5cayTqi4ZDGQEUHiNDOJhyHxSORkdUv7iRROZeDcp1S6R5vcMfFo+0GLgKoAJyrSPBbE+Zaudn+wFwaTq4yqfeqWEMMJzCaMXM9mZFMqKVMUX6ytjh4jw5PcBzYkghytR19e3I9SRdQ2vSXX0/waGOhDc0FFkxt+2PpFZGCX5RRcU3nH48WJnHiwrblRyh3rlQIZx6ewN1I9s7/UgSmiLnZ2nIUNYoy+DjLU+JSZgyWHVjw54koP6AO92Ol+5tSwwal6jvE98P0Q0gMI8FjziyviqsCuf0teWWBB9p7u5iujIi74=" # CF_DEPLOY_USER
+    - secure: "jCRqWU057ewUhS7a+ZjTE18jlPdfNyXMl461DZ5aeNORF/DsESS7Ym8npYG90VzGTImQfasO1/dwcMvXwc1UYl9Fn2NDpGOlMNr/C3Li6gCr/QOIwIBbHuJ2k21NbFKCAaGwJMIcjF9S9rl6n+DznqNp60jwOQhawOo80l45yh8RLJrWDiBzBs3qFY5cJbSghv2fxv5HIXyr/Ezx2vorI/ZfB3rsacsg0gp6dO7Yzirk7H2KuzL6I8s5oIFk1vRFAFS/PC8GmikOqNkVzgju627+glXE/3hlphIu1lI8mQjW/JXWEISxcK7hyySzEhduDTEaH2sIO+qNGOMSyAx6xO9OFlhFkb31DfesXSEXTnFA1FST11xCH5yYZgp+ZARG7Q5Dqyw2iWpTeXc+KoD647EXLr+ktJHYJcGQdeVyP0BB3T+1Ywv1obeSZNwCTVf5tY2MoOT/0a1C4xHU6v7DShmfuk6VT1AqH/Kt3YatCF07hg42iGZO/XGtzHoRSTH7NjulQabfyW7Koni0ovoaosD/SkmiUlS3Zn+lp0mqabEy33ekkdv0cP3oQtwK3xwYP5nl2R+VaYUDWdUGicZJfaZrM6KgGl+bDmwW7P6q/mob5bG/PedOuP97K/CM38Pb7aIC4vnzRLfGVqFud7dxXbkg99cN2UzBsy+7ynBnTIA=" # CF_DEPLOY_PASSWORD
 
 before_deploy:
   - npm run build
@@ -19,6 +19,6 @@ before_deploy:
 deploy:
   - provider: script
     skip_cleanup: true
-    script: ./bin/cf_deploy.sh fec-pattern-library fec dev
+    script: ./bin/cf_deploy.sh fec-pattern-library fec-beta-fec dev
     on:
       branch: master
