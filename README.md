@@ -1,6 +1,6 @@
 # betaFEC Pattern Library & Style Guide
 
-This is the collection of styles and design patterns that make up beta.fec.gov. It is built on [Fractal](http://fractal.build/guide).
+This is the collection of styles and design patterns that make up the new fec.gov. It is built on [Fractal](http://fractal.build/guide).
 
 The guide is broken down into sections according to SCSS directories on [fec-style](http://www.github.com/18F/fec-style):
 
