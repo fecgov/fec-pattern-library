@@ -1,4 +1,4 @@
-# betaFEC Pattern Library & Style Guide
+# FEC.gov Pattern Library & Style Guide
 
 This is the collection of styles and design patterns that make up the new fec.gov. It is built on [Fractal](http://fractal.build/guide).
 
