@@ -38,8 +38,9 @@ fractal.web.set('builder.dest', __dirname + '/docs');
 // Theme
 const mandelbrot = require('@frctl/mandelbrot');
 const fecTheme = mandelbrot({
-    skin: "white"
-    // panels: ["html", "info", "resources"]
+    "skin": "navy",
+    "nav": ["docs", "components"]
+
 });
 
 fractal.web.theme(fecTheme);

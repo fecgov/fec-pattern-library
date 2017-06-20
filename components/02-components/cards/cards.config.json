@@ -23,5 +23,6 @@
           "modifier": "card--wide"
         }
       }
-    ]
+    ],
+    "collated": true
 }
