@@ -1,0 +1,25 @@
+{
+    "title": "Buttons",
+    "default": "Neutral",
+    "context": {
+      "modifier": "neutral",
+      "button": ""
+    },
+    "variants": [
+      {
+        "name": "Primary",
+        "context": {
+          "modifier": "primary",
+          "button": "-primary"
+        }
+      },
+      {
+        "name": "Secondary",
+        "context": {
+          "modifier": "secondary",
+          "button": "-secondary"
+        }
+      }
+    ],
+    "collated": true
+}

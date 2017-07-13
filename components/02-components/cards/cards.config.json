@@ -1,0 +1,28 @@
+{
+    "title": "Cards",
+    "default": "Base style",
+    "context": {
+      "modifier": "card--primary"
+    },
+    "variants": [
+      {
+        "name": "Horizontal layout",
+        "context": {
+          "modifier": "card--horizontal"
+        }
+      },
+      {
+        "name": "Full bleed",
+        "context": {
+          "modifier": "card--full-bleed"
+        }
+      },
+      {
+        "name": "Wide",
+        "context": {
+          "modifier": "card--wide"
+        }
+      }
+    ],
+    "collated": true
+}
