@@ -35,6 +35,20 @@ fractal.components.set('ext', '.html'); // look for files with a .njk file exten
 fractal.components.set('default.preview', '@preview');
 fractal.web.set('builder.dest', __dirname + '/docs');
 
+// Add custom "Not in use" status
+fractal.components.set('statuses', {
+    ready: {
+        label: "Ready",
+        description: "Ready to implement.",
+        color: "#29CC29"
+    },
+    unused: {
+        label: "Not in use",
+        description: "Not currently being used.",
+        color: "#FF0000"
+    }
+});
+
 // Theme
 const mandelbrot = require('@frctl/mandelbrot');
 const fecTheme = mandelbrot({
