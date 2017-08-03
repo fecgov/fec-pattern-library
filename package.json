@@ -5,13 +5,13 @@
     "@frctl/fractal": "^1.1",
     "@frctl/nunjucks": "^1.0.1",
     "aria-accordion": "^0.1.1",
-    "fec-style": "^11.3.0",
+    "fec-style": "^14.0.0",
     "jquery": "^3.1.1"
   },
   "devDependencies": {
     "browserify": "^11.0.1",
-    "gulp": "3.8.11",
-    "gulp-sass": "^2.3.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
     "npm-run-all": "^4.0.0"
   },
   "scripts": {
