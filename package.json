@@ -2,7 +2,7 @@
   "name": "fec-pattern-library",
   "version": "0.1.0",
   "dependencies": {
-    "@frctl/fractal": "^1.1",
+    "@frctl/fractal": "^1.1.5",
     "@frctl/nunjucks": "^1.0.1",
     "aria-accordion": "^0.1.1",
     "fec-style": "^14.0.0",
