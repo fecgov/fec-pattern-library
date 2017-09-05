@@ -11,7 +11,7 @@ env:
 
 before_deploy:
   - npm run build
-  - mkdir $HOME/bin
+  - mkdir -p $HOME/bin
   - export PATH=$HOME/bin:$PATH
   - travis_retry curl -L "https://cli.run.pivotal.io/stable?release=linux64-binary&version=6.23.0" | tar xzv -C $HOME/bin
   - travis_retry cf install-plugin autopilot -f -r CF-Community
