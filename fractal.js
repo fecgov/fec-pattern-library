@@ -42,6 +42,11 @@ fractal.components.set('statuses', {
         description: "Ready to implement.",
         color: "#29CC29"
     },
+    future: {
+        label: "To be implemented",
+        description: "To be implemented.",
+        color: "#3e8a9a"
+    },
     unused: {
         label: "Not in use",
         description: "Not currently being used.",

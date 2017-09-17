@@ -1,34 +1,44 @@
-<table id="data-table" class="data-table">
-  <thead>
-    <tr>
-      <th>No.</th>
-      <th>Name</th>
-      <th>Score</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Red</td>
-      <td>0.1234</td>
-      <td>Minim in magna ex incididunt sit laborum exercitation aute</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Blue</td>
-      <td>0.1234</td>
-      <td>in dolore amet irure dolore commodo est aliquip</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Green</td>
-      <td>0.1234</td>
-      <td>nostrud laborum in ullamco cillum laborum</td>
-    </tr>
-  </tbody>
-</table>
-<div class="results-info">
-  <a class="paginate_button previous" href="#data-table">Previous</a>
-  <a class="paginate_button next" href="#data-table">Next</a>
+<div class="container">
+  <table id="data-table" class="data-table">
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Name</th>
+        <th>Score</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Red</td>
+        <td>0.1234</td>
+        <td>Minim in magna ex incididunt sit laborum exercitation aute</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Blue</td>
+        <td>0.1234</td>
+        <td>in dolore amet irure dolore commodo est aliquip</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Green</td>
+        <td>0.1234</td>
+        <td>nostrud laborum in ullamco cillum laborum</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="dataTables_wrapper">
+    <div class="results-info">
+      <div class="dataTables_length" id="results_length">
+        <label for="results-length">Results per page: <select name="results_length" aria-controls="results" class="" id="results-length"><option value="30">30</option><option value="50">50</option><option value="100">100</option></select></label>
+      </div>
+      <div class="dataTables_paginate paging_simple" id="results_paginate">
+        <a class="paginate_button previous disabled" aria-controls="results" data-dt-idx="0" tabindex="0" id="results_previous">Previous</a>
+        <a class="paginate_button next" aria-controls="results" data-dt-idx="1" tabindex="0" id="results_next">Next</a>
+      </div>
+    </div>
+  </div>
 </div>
