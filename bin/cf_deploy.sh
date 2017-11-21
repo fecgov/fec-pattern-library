@@ -22,8 +22,8 @@ cf api ${cloud_gov}
   set +x # Disable debugging
 
   # Log in if necessary
-  if [[ -n ${CF_DEPLOY_USER} && -n ${CF_DEPLOY_PASSWORD} ]]; then
-    cf auth "${CF_DEPLOY_USER}" "${CF_DEPLOY_PASSWORD}"
+  if [[ -n ${FEC_CF_USERNAME_DEV} && -n ${FEC_CF_PASSWORD_DEV} ]]; then
+    cf auth "${FEC_CF_USERNAME_DEV}" "${FEC_CF_PASSWORD_DEV}"
   fi
 )
 
