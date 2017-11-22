@@ -34,6 +34,7 @@ jobs:
       - deploy:
           name: Deploy Pattern Library
           command: |
+            export PATH=$HOME/bin:$PATH
             ./bin/cf_deploy.sh fec-pattern-library fec-beta-fec dev
 
 workflows:
