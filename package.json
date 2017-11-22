@@ -2,21 +2,18 @@
   "name": "fec-pattern-library",
   "version": "0.1.0",
   "dependencies": {
-    "@frctl/fractal": "^1.1.5",
+    "@frctl/fractal": "^1.1.7",
     "@frctl/nunjucks": "^1.0.1",
     "aria-accordion": "^0.1.1",
-    "fec-style": "^14.0.0",
     "jquery": "^3.1.1"
   },
   "devDependencies": {
     "browserify": "^11.0.1",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
     "npm-run-all": "^4.0.0"
   },
   "scripts": {
-    "build": "npm-run-all --parallel build-sass build-js --serial build-library",
-    "build-sass": "gulp build-sass",
+    "build": "npm-run-all --parallel build-js --serial build-library",
     "build-js": "browserify public/js/init.js > public/js/main.js",
     "build-library": "fractal build",
     "start": "fractal start --sync",

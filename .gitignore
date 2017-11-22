@@ -1,8 +1,5 @@
 node_modules
 !docs/.gitkeep
 docs/
-public/img/
-public/fonts/
-public/css/
 
 public/js/main.js
