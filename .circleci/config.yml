@@ -4,7 +4,7 @@ version: 2
 jobs:
   build-and-deploy-job:
     docker:
-      - image: ubuntu/artful
+      - image: ubuntu:artful
 
     working_directory: ~/repo
 
