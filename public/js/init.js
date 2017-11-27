@@ -1,5 +1,6 @@
 var $ = require('jquery');
 var accordion = require('aria-accordion');
+var dropdown = require('./dropdowns');
 
 $('.js-accordion').each(function(){
   var contentPrefix = $(this).data('content-prefix') || 'accordion';
@@ -9,4 +10,8 @@ $('.js-accordion').each(function(){
     openFirst: openFirst
   };
   new accordion.Accordion({}, opts);
+});
+
+$('.js-dropdown').each(function() {
+  new dropdown.Dropdown(this);
 });
