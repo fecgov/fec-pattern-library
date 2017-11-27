@@ -6,6 +6,9 @@ var moment = require('moment');
 require('jquery.inputmask');
 require('jquery.inputmask/dist/inputmask/inputmask.date.extensions');
 
+// A few modifications were made to the file compared to the one on
+// fec-cms to get it to work standalone for the pattern library.
+
 function DateFilter() {
   this.$elm = $('.js-filter');
 
@@ -23,7 +26,7 @@ function DateFilter() {
     oncomplete: this.validate.bind(this)
   });
 
-  this.$elm.find('select').on('change', this.handleModifyEvent.bind(this));
+  this.$elm.find('select').on('change', this.handleInputChange.bind(this));
 
   this.fields = ['min_' + this.name, 'max_' + this.name];
 
@@ -57,22 +60,12 @@ DateFilter.prototype.validate = function() {
   }
 };
 
-DateFilter.prototype.fromQuery = function(query) {
-  if (query['min_' + this.name] || query['max_' + this.name]) {
-    this.setValue([
-      query['min_' + this.name],
-      query['max_' + this.name]
-    ]);
-  }
-  return this;
-};
-
 DateFilter.prototype.setValue = function(value) {
   this.$minDate.val(value[0]).change();
   this.$maxDate.val(value[1]).change();
 };
 
-DateFilter.prototype.handleModifyEvent = function(e, opts) {
+DateFilter.prototype.handleInputChange = function(e, opts) {
   var today = new Date();
 
   // Sets min and max years based on the transactionPeriod filter
@@ -87,23 +80,6 @@ DateFilter.prototype.handleModifyEvent = function(e, opts) {
   }
   this.validate();
   this.setupDateGrid();
-};
-
-DateFilter.prototype.handleRemoveAll = function(e, opts) {
-  // If this is a forceRemove event that means it was triggered by table switch
-  // So we need to clear these inputs and set had-value to false so that it fires filter:added
-  var forceRemove = opts.forceRemove || false;
-
-  function remove($filter) {
-    $filter.val('');
-    $filter.data('had-value', false);
-    $filter.trigger('filter:removed', {loadedOnce: true});
-  }
-
-  if (forceRemove) {
-   remove(this.$minDate);
-   remove(this.$maxDate);
-  }
 };
 
 DateFilter.prototype.setupDateGrid = function() {
