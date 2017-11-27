@@ -1,0 +1,44 @@
+<div id="filters" class="filters is-open" style="border: none; padding: 20px;">
+  <fieldset class="filter toggles js-filter js-table-switcher" style="border: none;">
+    <legend class="label t-inline-block">Data type</legend>
+    <div class="row">
+      <label for="switcher-processed" class="toggle">
+        <input type="radio" class="toggle" value="processed" id="switcher-processed" checked="" name="data_type" data-prefix="Data type:" data-tag-value="processed" aria-controls="processed-message" tabindex="0">
+        <span class="button--alt">Processed</span>
+      </label>
+      <label for="switcher-efilings" class="toggle">
+        <input type="radio" class="toggle" value="efiling" id="switcher-efilings" name="data_type" data-prefix="Data type:" data-tag-value="raw" aria-controls="efiling-message" tabindex="0">
+        <span class="button--alt">Raw</span>
+      </label>
+    </div>
+  </fieldset>
+</div>
+
+<div class="slab slab--inline slab--neutral u-padding--left u-padding--right">
+  <div class="subcycle-select">
+    <fieldset class="js-subcycle-select">
+      <legend class="cycle-select__label">Time period</legend>
+      <div class="toggles">
+        <label>
+          <input type="radio" name="cycle-toggle-cycle-1" value="2012" data-election-full="true" checked="">
+          <span class="button--alt ">
+            Full cycle:
+            2009–2012
+          </span>
+        </label>
+        <label>
+          <input type="radio" name="cycle-toggle-cycle-1" value="2010" data-election-full="false">
+          <span class="button--alt ">
+            2009–2010
+          </span>
+        </label>
+        <label>
+          <input type="radio" name="cycle-toggle-cycle-1" value="2012" data-election-full="false">
+          <span class="button--alt ">
+            2011–2012
+          </span>
+        </label>
+      </div>
+    </fieldset>
+  </div>
+</div>
