@@ -1,8 +1,8 @@
 var $ = require('jquery');
 var accordion = require('aria-accordion');
 var A11yDialog = require('a11y-dialog');
-var datefilter = require('./date-filter');
-var dropdown = require('./dropdowns');
+var datefilter = require('./modules/date-filter');
+var dropdown = require('./modules/dropdowns');
 
 function KeywordModal() {
   this.elm = document.querySelector('.js-keyword-modal');

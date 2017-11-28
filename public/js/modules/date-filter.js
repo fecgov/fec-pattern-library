@@ -34,6 +34,9 @@ function DateFilter() {
   this.$maxDate.on('focus', this.handleMaxDateSelect.bind(this));
 
   this.$elm.on('click', '.date-range__grid li', this.handleGridItemSelect.bind(this));
+
+  // fill in default range
+  this.handleInputChange();
 }
 
 DateFilter.prototype.validate = function() {
