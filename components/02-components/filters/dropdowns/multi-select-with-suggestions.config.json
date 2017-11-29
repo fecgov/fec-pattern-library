@@ -1,4 +1,5 @@
 {
+  "label": "Multi select with selections",
   "title": "Dropdown: multi-select with suggestions",
-  "label": "Multi select with selections"
+  "notes": "Sometimes, certain options are applied much more often than others. When this happens, it can be helpful to surface those most common options outside the list."
 }

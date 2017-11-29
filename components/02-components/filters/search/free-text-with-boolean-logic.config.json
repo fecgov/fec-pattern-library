@@ -1,3 +1,5 @@
 {
-  "title": "Search: free text with boolean logic"
+  "label": "Free text with boolean logic",
+  "title": "Search: free text with boolean logic",
+  "notes": "Use when complex keyword searches are necessary to disambiguate between search results."
 }

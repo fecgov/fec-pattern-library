@@ -1,4 +1,5 @@
 {
+  "label": "Multi select",
   "title": "Dropdown: multi-select",
-  "label": "Multi select"
+  "notes": "A dropdown allows users to select one option from a list. Users can apply multiple options."
 }
