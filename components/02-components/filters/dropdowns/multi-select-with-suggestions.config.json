@@ -1,5 +1,5 @@
 {
   "label": "Multi select with selections",
   "title": "Dropdown: multi-select with suggestions",
-  "notes": "Sometimes, certain options are applied much more often than others. When this happens, it can be helpful to surface those most common options outside the list."
+  "notes": "Sometimes, certain options are applied much more often than others. When this happens, it can be helpful to surface those most common options outside the list.<br>If you need to align the panel to the right edge, use .dropdown__panel--right."
 }
