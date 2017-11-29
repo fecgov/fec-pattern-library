@@ -1,26 +1,26 @@
 {
-    "title": "Buttons",
-    "default": "Neutral",
-    "context": {
-      "modifier": "neutral",
-      "button": ""
-    },
-    "variants": [
-      {
-        "name": "Primary",
-        "context": {
-          "modifier": "primary",
-          "button": "-primary"
-        }
-      },
-      {
-        "name": "Secondary",
-        "context": {
-          "modifier": "secondary",
-          "button": "-secondary"
-        }
+  "title": "Buttons",
+  "default": "Neutral",
+  "context": {
+    "modifier": "neutral",
+    "button": ""
+  },
+  "variants": [
+    {
+      "name": "Primary",
+      "context": {
+        "modifier": "primary",
+        "button": "-primary"
       }
-    ],
-    "collated": true,
-    "notes": "Buttons follow the **color pairing** rules used across the site. There are three defined styles for buttons: *standard*, *call to action*, and *alternate*. Use standard button styles for normal scenarios. Use call to action styles when you need to drive attention specifically to an item or interaction. Use alternate styling for secondary, or less important interactions so that they don't distract from the content."
+    },
+    {
+      "name": "Secondary",
+      "context": {
+        "modifier": "secondary",
+        "button": "-secondary"
+      }
+    }
+  ],
+  "collated": true,
+  "notes": "Buttons follow the **color pairing** rules used across the site. There are three defined styles for buttons: *standard*, *call to action*, and *alternate*. Use standard button styles for normal scenarios. Use call to action styles when you need to drive attention specifically to an item or interaction. Use alternate styling for secondary, or less important interactions so that they don't distract from the content."
 }

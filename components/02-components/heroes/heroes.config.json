@@ -1,28 +1,28 @@
 {
-    "title": "Heroes",
-    "default": "Campaign finance data section",
-    "context": {
-      "modifier": "hero--data"
-    },
-    "variants": [
-      {
-        "name": "Legal resources section",
-        "context": {
-          "modifier": "hero--legal"
-        }
-      },
-      {
-        "name": "Registration and reporting section",
-        "context": {
-          "modifier": "hero--registration"
-        }
-      },
-      {
-        "name": "Press section",
-        "context": {
-          "modifier": "hero--press"
-        }
+  "title": "Heroes",
+  "default": "Campaign finance data section",
+  "context": {
+    "modifier": "hero--data"
+  },
+  "variants": [
+    {
+      "name": "Legal resources section",
+      "context": {
+        "modifier": "hero--legal"
       }
-    ],
-    "collated": true
+    },
+    {
+      "name": "Registration and reporting section",
+      "context": {
+        "modifier": "hero--registration"
+      }
+    },
+    {
+      "name": "Press section",
+      "context": {
+        "modifier": "hero--press"
+      }
+    }
+  ],
+  "collated": true
 }

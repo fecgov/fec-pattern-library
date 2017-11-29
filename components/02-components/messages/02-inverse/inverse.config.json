@@ -1,0 +1,33 @@
+{
+  "title": "Inverse",
+  "variants": [
+    {
+      "name": "default",
+      "label": "Success message",
+      "context": {
+        "modifier": "message--success"
+      }
+    },
+    {
+      "name": "Error message",
+      "label": "Error message",
+      "context": {
+        "modifier": "message--error"
+      }
+    },
+    {
+      "name": "Alert message",
+      "label": "Alert message",
+      "context": {
+        "modifier": "message--alert"
+      }
+    },
+    {
+      "name": "Info message",
+      "label": "Info message",
+      "context": {
+        "modifier": "message--info"
+      }
+    }
+  ]
+}
