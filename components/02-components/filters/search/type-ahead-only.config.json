@@ -1,5 +1,5 @@
 {
   "label": "Type-ahead only",
   "title": "Search: type-ahead only",
-  "notes": "Use when the search field only accepts type-ahead matching to choose an option from pre-defined set of data"
+  "notes": "Use when the search field only accepts type-ahead matching to choose an option from a pre-defined set of data"
 }
