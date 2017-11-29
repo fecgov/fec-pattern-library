@@ -58,7 +58,8 @@ fractal.components.set('statuses', {
 const mandelbrot = require('@frctl/mandelbrot');
 const fecTheme = mandelbrot({
     "skin": "navy",
-    "nav": ["docs", "components"]
+    "nav": ["docs", "components"],
+    "panels": ["notes", "html", "view", "context", "info"]
 });
 
 fractal.web.theme(fecTheme);

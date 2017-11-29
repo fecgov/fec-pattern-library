@@ -1,21 +1,25 @@
 {
-    "title": "Simple table",
-    "default": "Simple table with rules",
-    "context": {
-      "modifier": "simple-table"
-    },
-    "variants": [
-      {
-        "name": "Responsive",
-        "context": {
-          "modifier": "simple-table--responsive"
-        }
-      },
-      {
-        "name": "Display",
-        "context": {
-          "modifier": "simple-table--display"
-        }
+  "label": "Simple table",
+  "title": "Simple table",
+  "variants": [
+    {
+      "name": "default",
+      "label": "Simple table with rules",
+      "context": {
+        "modifier": "simple-table"
       }
-    ]
+    },
+    {
+      "name": "Responsive",
+      "context": {
+        "modifier": "simple-table--responsive"
+      }
+    },
+    {
+      "name": "Display",
+      "context": {
+        "modifier": "simple-table--display"
+      }
+    }
+  ]
 }

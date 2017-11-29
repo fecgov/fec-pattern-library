@@ -1,0 +1,19 @@
+<div id="filters" class="filters is-open" style="border: none; padding: 20px;">
+  <fieldset class="filter" id="amount-field">
+    <legend class="label">Receipt amount</legend>
+    <div class="range range--currency">
+      <div class="range__input range__input--min js-filter" data-filter="range">
+        <label for="min_amount">From</label>
+        <input id="min_amount" type="text" name="min_amount" data-range="min" data-prefix="$" data-suffix="or more" tabindex="0">
+      </div>
+      <div class="range__hyphen">-</div>
+      <div class="range__input range__input--max js-filter" data-filter="range">
+        <label for="max_amount">To</label>
+        <input id="max_amount" type="text" name="max_amount" data-range="max" data-prefix="$" data-suffix="or less" tabindex="0">
+      </div>
+      <button class="button--go button--standard is-disabled" type="button" tabindex="0">
+        <span class="u-visually-hidden">Search</span>
+      </button>
+    </div>
+  </fieldset>
+</div>

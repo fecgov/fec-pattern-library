@@ -1,0 +1,34 @@
+{
+  "label": "Banners and alerts",
+  "default": "Success",
+  "context": {
+    "modifier": "message--success"
+  },
+  "variants": [
+    {
+      "name": "Error",
+      "context": {
+        "modifier": "message--error"
+      }
+    },
+    {
+      "name": "Alert",
+      "context": {
+        "modifier": "message--alert"
+      }
+    },
+    {
+      "name": "No icon",
+      "label": "No icon",
+      "context": {
+        "modifier": "message--no-icon"
+      }
+    },
+    {
+      "name": "Info",
+      "context": {
+        "modifier": "message--info"
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+<div id="filters" class="filters is-open" style="border: none; padding: 20px;">
+  <div class="filter">
+    <div class="js-filter js-filter-control" data-filter="select" data-validate="true" data-modifies-filter="date" data-modifies-property="data-transaction-year" data-required-default="2018">
+      <label class="label t-inline-block" for="two-year-transaction-period">Transaction time period</label>
+      <select id="two-year-transaction-period" name="two_year_transaction_period" tabindex="0">
+        <option value="2018">2017–2018</option>
+        <option value="2016">2015–2016</option>
+        <option value="2014">2013–2014</option>
+        <option value="2012">2011–2012</option>
+        <option value="2010">2009–2010</option>
+        <option value="2008">2007–2008</option>
+        <option value="2006">2005–2006</option>
+        <option value="2004">2003–2004</option>
+        <option value="2002">2001–2002</option>
+        <option value="2000">1999–2000</option>
+        <option value="1998">1997–1998</option>
+        <option value="1996">1995–1996</option>
+        <option value="1994">1993–1994</option>
+        <option value="1992">1991–1992</option>
+        <option value="1990">1989–1990</option>
+        <option value="1988">1987–1988</option>
+        <option value="1986">1985–1986</option>
+        <option value="1984">1983–1984</option>
+        <option value="1982">1981–1982</option>
+        <option value="1980">1979–1980</option>
+      </select>
+    </div>
+    <div class="js-filter" id="date" data-filter="date" data-name="date" data-validate="true">
+      <div class="range range--date js-date-range">
+        <div class="range__input range__input--min" data-filter="range">
+          <label for="min_date">Beginning</label>
+          <input type="text" id="min_date" name="min_date" data-range="min" class="js-min-date" data-prefix="Beginning" tabindex="0">
+        </div>
+        <div class="range__hyphen">-</div>
+        <div class="range__input range__input--max" data-filter="range">
+          <label for="max_date">Ending</label>
+          <input type="text" id="max_date" name="max_date" data-range="max" class="js-max-date" data-prefix="Ending" tabindex="0">
+        </div>
+        <button class="button--go button--standard" type="button" tabindex="0">
+          <span class="u-visually-hidden">Search</span>
+        </button>
+      </div>
+      <div class="date-range__grid js-date-grid">
+        <div class="date-range__row">
+          <div class="date-range__year">2017</div>
+          <ul data-year="2017" class="date-range__months">
+            <li data-month="01" class="selected month--begin"><div>Jan</div></li>
+            <li data-month="02" class="selected"><div>Feb</div></li>
+            <li data-month="03" class="selected"><div>Mar</div></li>
+            <li data-month="04" class="selected"><div>Apr</div></li>
+            <li data-month="05" class="selected"><div>May</div></li>
+            <li data-month="06" class="selected"><div>Jun</div></li>
+            <li data-month="07" class="selected"><div>Jul</div></li>
+            <li data-month="08" class="selected"><div>Aug</div></li>
+            <li data-month="09" class="selected"><div>Sep</div></li>
+            <li data-month="10" class="selected"><div>Oct</div></li>
+            <li data-month="11" class="selected"><div>Nov</div></li>
+            <li data-month="12" class="selected"><div>Dec</div></li>
+          </ul>
+        </div>
+        <div class="date-range__row">
+          <div class="date-range__year">2018</div>
+          <ul data-year="2018" class="date-range__months">
+            <li data-month="01" class="selected"><div>Jan</div></li>
+            <li data-month="02" class="selected"><div>Feb</div></li>
+            <li data-month="03" class="selected"><div>Mar</div></li>
+            <li data-month="04" class="selected"><div>Apr</div></li>
+            <li data-month="05" class="selected"><div>May</div></li>
+            <li data-month="06" class="selected"><div>Jun</div></li>
+            <li data-month="07" class="selected"><div>Jul</div></li>
+            <li data-month="08" class="selected"><div>Aug</div></li>
+            <li data-month="09" class="selected"><div>Sep</div></li>
+            <li data-month="10" class="selected"><div>Oct</div></li>
+            <li data-month="11" class="selected"><div>Nov</div></li>
+            <li data-month="12" class="selected month--end"><div>Dec</div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

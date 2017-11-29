@@ -1,22 +1,22 @@
 {
-    "title": "Callout",
-    "default": "Base",
-    "context": {
-      "modifier": "callout"
-    },
-    "variants": [
-      {
-        "name": "Primary",
-        "context": {
-          "modifier": "callout--primary"
-        }
-      },
-      {
-        "name": "Secondary",
-        "context": {
-          "modifier": "callout--secondary"
-        }
+  "title": "Callout",
+  "default": "Base",
+  "context": {
+    "modifier": "callout"
+  },
+  "variants": [
+    {
+      "name": "Primary",
+      "context": {
+        "modifier": "callout--primary"
       }
-    ],
-    "collated": true
+    },
+    {
+      "name": "Secondary",
+      "context": {
+        "modifier": "callout--secondary"
+      }
+    }
+  ],
+  "collated": true
 }

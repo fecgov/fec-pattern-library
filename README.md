@@ -33,4 +33,4 @@ Remove the existing file `/public/css/styles.css`. Then from the [fec-cms](githu
 Drop in any images and fonts needed for components in `/public/img` and `/public/fonts`, respectively.
 
 ### JavaScript
-Custom JS functions are defined in `/public/init.js`. They are compiled during the `npm run build` step.
+JavaScript for component interactions (accordion, dropdowns, keyword modal, date range) are defined in `/public/init.js`. This file is compiled to `main.js`.
