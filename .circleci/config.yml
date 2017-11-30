@@ -23,13 +23,10 @@ jobs:
             npm install
             npm run build
 
-      - run:
-          name: Install CF CLI
-          command: |
-            mkdir -p $HOME/bin
-            export PATH=$HOME/bin:$PATH
-            curl -L "https://cli.run.pivotal.io/stable?release=linux64-binary&version=6.33.0" | tar xzv -C $HOME/bin
-            cf install-plugin autopilot -f -r CF-Community
+      - save_cache:
+          paths:
+            - ./node_modules
+          key: fec-pattern-library-dependencies-{{ checksum "package.json" }}
 
   deploy-job:
     docker:
@@ -52,6 +49,11 @@ jobs:
             npm install
             npm run build
 
+      - save_cache:
+          paths:
+            - ./node_modules
+          key: fec-pattern-library-dependencies-{{ checksum "package.json" }}
+
       - run:
           name: Install CF CLI
           command: |
@@ -70,7 +72,7 @@ workflows:
   version: 2
   build-deploy:
     jobs:
-      - build-job:
+      - build-job
       - deploy-job:
           requires:
             - build-job
