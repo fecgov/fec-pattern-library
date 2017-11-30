@@ -1,0 +1,55 @@
+// this compiles all components for pattern library
+@import './node_modules/fec-cms/fec/fec/static/scss/global';
+
+@import './node_modules/fec-cms/fec/fec/static/scss/components/agendas';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/breakdowns';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/calendar';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/callouts';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/candidate-page';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/charts';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/contact-form';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/contact-items';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/cycle-select';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/data-container';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/datatable-panel';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/datatables';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/date-grid';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/documents';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/downloads';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/dropdowns';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/entity-header';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/examples';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/figures';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/filters';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/form-styles';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/glossary';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/headings';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/hero';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/icon-headings';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/legal-search';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/list-styles';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/maps';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/messages';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/modals';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/options';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/overlay';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/overviews';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/pagination';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/posts';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/reaction-boxes';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/richtext';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/search-bar';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/search-controls';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/search-results';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/side-nav';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/sidebar';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/stickybar';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/table-styles';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/tags';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/toggles';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/tooltips';
+@import './node_modules/fec-cms/fec/fec/static/scss/components/type-styles';
+
+@import './node_modules/fec-cms/fec/fec/static/scss/components/results-info';
+
+@import 'icon-classes';

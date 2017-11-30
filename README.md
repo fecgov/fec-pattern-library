@@ -10,6 +10,7 @@ Install dependencies:
 
 ```
 npm install
+
 ```
 
 Build the project
@@ -24,13 +25,42 @@ Start the server
 npm run start
 ```
 
+### Additional commands
+
+Build SCSS only:
+
+```
+npm run build-sass
+```
+
+Build JavaScript only:
+
+```
+npm run-build-js
+```
+
 ## Front end asset management for components
+Component specific SCSS and JavaScript files are contained in the `public/` folder, and compiled files and assets are be served from the `public/` folder.
 
-### CSS
-Remove the existing file `/public/css/styles.css`. Then from the [fec-cms](github.com/18F/fec-cms) repo, run `npm run build-sass` and get the generated `/fec/fec/dist/fec/static/css/all-*.css` file. Drop it in `/public/css/` folder and rename to `styles.css`.
+### fec-cms git dependency
+This repo depends on the `fec-cms` git repo as a local npm package to compile and serve front end assets for components to render correctly. Any updates on `fec-cms` since the initial npm install will require `npm update` to get the latest assets into the `node_modules/fec-cms` folder.
 
-### Images and fonts
-Drop in any images and fonts needed for components in `/public/img` and `/public/fonts`, respectively.
+### SCSS
+The Gulp script (`.gulpfile.js`) compiles custom stylesheet of all icons classes (`_icon-classes.scss`) as well as all components as specified in `static/scss/styles.scss`. Any additional layout or component stylesheets created in `fec-cms` must be added to `styles.scss`.
 
 ### JavaScript
-JavaScript for component interactions (accordion, dropdowns, keyword modal, date range) are defined in `/public/init.js`. This file is compiled to `main.js`.
+Interactive components that rely on JS will need to have their functions intialized in `static/js/init.js`.
+
+### Build icons component for documentation
+Update the Icons documentation page by running:
+
+```
+npm run build-icons-component
+```
+
+This command gets a list of icons and generates HTML markup for the custom documentation component.
+
+### "Hack" to get documentation pages to display custom styles
+Documentation pages (like `documentation/02-typography.md`) include hardcoded HTML to render hidden components so they can render custom FEC styles. Those components are defined in `components/01-basics/*`.
+
+

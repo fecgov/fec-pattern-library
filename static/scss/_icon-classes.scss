@@ -1,0 +1,405 @@
+// ONLY edit static/templates/icon-classes.scss
+// and run `npm run build-sass`
+
+.i {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: u(5rem);
+  height: u(5rem);
+  display: block;
+}
+
+// Classes for all icons
+
+.i-all-files {
+  @include u-icon-bg($all-files, $primary);
+}
+
+.i-arrow-down-border {
+  @include u-icon-bg($arrow-down-border, $primary);
+}
+
+.i-arrow-down-circle {
+  @include u-icon-bg($arrow-down-circle, $primary);
+}
+
+.i-arrow-down {
+  @include u-icon-bg($arrow-down, $primary);
+}
+
+.i-arrow-left-border {
+  @include u-icon-bg($arrow-left-border, $primary);
+}
+
+.i-arrow-left-circle {
+  @include u-icon-bg($arrow-left-circle, $primary);
+}
+
+.i-arrow-left {
+  @include u-icon-bg($arrow-left, $primary);
+}
+
+.i-arrow-right-border {
+  @include u-icon-bg($arrow-right-border, $primary);
+}
+
+.i-arrow-right-circle {
+  @include u-icon-bg($arrow-right-circle, $primary);
+}
+
+.i-arrow-right {
+  @include u-icon-bg($arrow-right, $primary);
+}
+
+.i-arrow-up-border {
+  @include u-icon-bg($arrow-up-border, $primary);
+}
+
+.i-arrow-up-circle {
+  @include u-icon-bg($arrow-up-circle, $primary);
+}
+
+.i-arrow-up {
+  @include u-icon-bg($arrow-up, $primary);
+}
+
+.i-bang-circle {
+  @include u-icon-bg($bang-circle, $primary);
+}
+
+.i-bang {
+  @include u-icon-bg($bang, $primary);
+}
+
+.i-book {
+  @include u-icon-bg($book, $primary);
+}
+
+.i-bulk {
+  @include u-icon-bg($bulk, $primary);
+}
+
+.i-cal-add {
+  @include u-icon-bg($cal-add, $primary);
+}
+
+.i-calculator {
+  @include u-icon-bg($calculator, $primary);
+}
+
+.i-calendar {
+  @include u-icon-bg($calendar, $primary);
+}
+
+.i-candidate {
+  @include u-icon-bg($candidate, $primary);
+}
+
+.i-cfr {
+  @include u-icon-bg($cfr, $primary);
+}
+
+.i-check-circle-outline {
+  @include u-icon-bg($check-circle-outline, $primary);
+}
+
+.i-check-circle {
+  @include u-icon-bg($check-circle, $primary);
+}
+
+.i-check {
+  @include u-icon-bg($check, $primary);
+}
+
+.i-checklist-2 {
+  @include u-icon-bg($checklist-2, $primary);
+}
+
+.i-checklist {
+  @include u-icon-bg($checklist, $primary);
+}
+
+.i-clock-reverse {
+  @include u-icon-bg($clock-reverse, $primary);
+}
+
+.i-committee-audit {
+  @include u-icon-bg($committee-audit, $primary);
+}
+
+.i-committee {
+  @include u-icon-bg($committee, $primary);
+}
+
+.i-compass {
+  @include u-icon-bg($compass, $primary);
+}
+
+.i-dash {
+  @include u-icon-bg($dash, $primary);
+}
+
+.i-data-flag {
+  @include u-icon-bg($data-flag, $primary);
+}
+
+.i-direction-sign {
+  @include u-icon-bg($direction-sign, $primary);
+}
+
+.i-disbursement {
+  @include u-icon-bg($disbursement, $primary);
+}
+
+.i-document {
+  @include u-icon-bg($document, $primary);
+}
+
+.i-download {
+  @include u-icon-bg($download, $primary);
+}
+
+.i-election {
+  @include u-icon-bg($election, $primary);
+}
+
+.i-facebook-circle {
+  @include u-icon-bg($facebook-circle, $primary);
+}
+
+.i-fax {
+  @include u-icon-bg($fax, $primary);
+}
+
+.i-file-box {
+  @include u-icon-bg($file-box, $primary);
+}
+
+.i-filter {
+  @include u-icon-bg($filter, $primary);
+}
+
+.i-financial-document {
+  @include u-icon-bg($financial-document, $primary);
+}
+
+.i-folder-with-person {
+  @include u-icon-bg($folder-with-person, $primary);
+}
+
+.i-folder {
+  @include u-icon-bg($folder, $primary);
+}
+
+.i-github-circle {
+  @include u-icon-bg($github-circle, $primary);
+}
+
+.i-graph-horizontal-ordered {
+  @include u-icon-bg($graph-horizontal-ordered, $primary);
+}
+
+.i-graph-horizontal-unordered {
+  @include u-icon-bg($graph-horizontal-unordered, $primary);
+}
+
+.i-graph {
+  @include u-icon-bg($graph, $primary);
+}
+
+.i-grid {
+  @include u-icon-bg($grid, $primary);
+}
+
+.i-hand-envelope {
+  @include u-icon-bg($hand-envelope, $primary);
+}
+
+.i-hand-money {
+  @include u-icon-bg($hand-money, $primary);
+}
+
+.i-icons_table {
+  @include u-icon-bg($icons_table, $primary);
+}
+
+.i-individual-contributions {
+  @include u-icon-bg($individual-contributions, $primary);
+}
+
+.i-info-circle-outline {
+  @include u-icon-bg($info-circle-outline, $primary);
+}
+
+.i-info-circle {
+  @include u-icon-bg($info-circle, $primary);
+}
+
+.i-info-person {
+  @include u-icon-bg($info-person, $primary);
+}
+
+.i-list {
+  @include u-icon-bg($list, $primary);
+}
+
+.i-magnifying-glass-arrow {
+  @include u-icon-bg($magnifying-glass-arrow, $primary);
+}
+
+.i-magnifying-glass {
+  @include u-icon-bg($magnifying-glass, $primary);
+}
+
+.i-mallet {
+  @include u-icon-bg($mallet, $primary);
+}
+
+.i-map-pin {
+  @include u-icon-bg($map-pin, $primary);
+}
+
+.i-map-us-states {
+  @include u-icon-bg($map-us-states, $primary);
+}
+
+.i-menu {
+  @include u-icon-bg($menu, $primary);
+}
+
+.i-minus-circle {
+  @include u-icon-bg($minus-circle, $primary);
+}
+
+.i-moving-envelope-circle {
+  @include u-icon-bg($moving-envelope-circle, $primary);
+}
+
+.i-notebook {
+  @include u-icon-bg($notebook, $primary);
+}
+
+.i-papers {
+  @include u-icon-bg($papers, $primary);
+}
+
+.i-person-location {
+  @include u-icon-bg($person-location, $primary);
+}
+
+.i-piggy-bank {
+  @include u-icon-bg($piggy-bank, $primary);
+}
+
+.i-plus-circle {
+  @include u-icon-bg($plus-circle, $primary);
+}
+
+.i-plus {
+  @include u-icon-bg($plus, $primary);
+}
+
+.i-point-down-circle {
+  @include u-icon-bg($point-down-circle, $primary);
+}
+
+.i-pop-up {
+  @include u-icon-bg($pop-up, $primary);
+}
+
+.i-question-bubble {
+  @include u-icon-bg($question-bubble, $primary);
+}
+
+.i-question-circle {
+  @include u-icon-bg($question-circle, $primary);
+}
+
+.i-scale {
+  @include u-icon-bg($scale, $primary);
+}
+
+.i-share {
+  @include u-icon-bg($share, $primary);
+}
+
+.i-shield {
+  @include u-icon-bg($shield, $primary);
+}
+
+.i-signal {
+  @include u-icon-bg($signal, $primary);
+}
+
+.i-sort-down {
+  @include u-icon-bg($sort-down, $primary);
+}
+
+.i-sort-up {
+  @include u-icon-bg($sort-up, $primary);
+}
+
+.i-sort {
+  @include u-icon-bg($sort, $primary);
+}
+
+.i-speaker {
+  @include u-icon-bg($speaker, $primary);
+}
+
+.i-stamp-circle {
+  @include u-icon-bg($stamp-circle, $primary);
+}
+
+.i-star {
+  @include u-icon-bg($star, $primary);
+}
+
+.i-subsection-doc {
+  @include u-icon-bg($subsection-doc, $primary);
+}
+
+.i-table {
+  @include u-icon-bg($table, $primary);
+}
+
+.i-telephone-circle {
+  @include u-icon-bg($telephone-circle, $primary);
+}
+
+.i-timer {
+  @include u-icon-bg($timer, $primary);
+}
+
+.i-training {
+  @include u-icon-bg($training, $primary);
+}
+
+.i-twitter-circle {
+  @include u-icon-bg($twitter-circle, $primary);
+}
+
+.i-two-candidates {
+  @include u-icon-bg($two-candidates, $primary);
+}
+
+.i-updates {
+  @include u-icon-bg($updates, $primary);
+}
+
+.i-usc {
+  @include u-icon-bg($usc, $primary);
+}
+
+.i-x-circle {
+  @include u-icon-bg($x-circle, $primary);
+}
+
+.i-x {
+  @include u-icon-bg($x, $primary);
+}
+
+.i-youtube-circle {
+  @include u-icon-bg($youtube-circle, $primary);
+}
