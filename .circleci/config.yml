@@ -26,7 +26,7 @@ jobs:
       - save_cache:
           paths:
             - ./node_modules
-          key: - fec-pattern-library-dependencies-{{ checksum "package.json" }}
+          key: fec-pattern-library-dependencies-{{ checksum "package.json" }}
 
   deploy-job:
     docker:
@@ -52,7 +52,7 @@ jobs:
       - save_cache:
           paths:
             - ./node_modules
-          key: - fec-pattern-library-dependencies-{{ checksum "package.json" }}
+          key: fec-pattern-library-dependencies-{{ checksum "package.json" }}
 
       - run:
           name: Install CF CLI
