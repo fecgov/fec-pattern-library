@@ -57,7 +57,7 @@ Update the Icons documentation page by running:
 npm run build-icons-component
 ```
 
-This command gets a list of icons and generates HTML markup for the custom documentation component.
+This command gets a list of icons and generates HTML markup for the custom documentation component. It uses `static/templates/icons-component.html` as a template to fill in the current list of icons from `fec-cms` into `components/01-basics/_icons.html`.
 
 ### "Hack" to get documentation pages to display custom styles
 Documentation pages (like `documentation/02-typography.md`) include hardcoded HTML to render hidden components so they can render custom FEC styles. Those components are defined in `components/01-basics/*`.
