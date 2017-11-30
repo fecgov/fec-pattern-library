@@ -3,6 +3,6 @@ node_modules
 docs/
 
 public/css/
-public/js/
+public/js/main.js
 public/img/
 public/fonts/
