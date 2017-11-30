@@ -13,12 +13,23 @@
   },
   "devDependencies": {
     "browserify": "^11.0.1",
+    "del": "^3.0.0",
+    "fec-cms": "git+https://github.com/18F/fec-cms.git#develop",
+    "fs-extra": "^4.0.2",
     "gulp": "^3.9.1",
-    "npm-run-all": "^4.0.0"
+    "gulp-clean-css": "^3.9.0",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "npm-run-all": "^4.0.0",
+    "uglify-js": "^3.2.0",
+    "underscore": "^1.8.3"
   },
   "scripts": {
-    "build": "npm-run-all --parallel build-js --serial build-library",
-    "build-js": "browserify public/js/init.js > public/js/main.js",
+    "build": "npm-run-all --parallel build-sass build-js --serial build-library",
+    "build-sass": "gulp build-sass",
+    "build-js": "browserify static/js/init.js | uglifyjs > public/js/main.js",
+    "build-icons-component": "gulp build-icons-component",
     "build-library": "fractal build",
     "start": "fractal start --sync",
     "test": "echo No tests to run; exit 0"

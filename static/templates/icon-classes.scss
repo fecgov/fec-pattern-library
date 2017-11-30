@@ -1,0 +1,18 @@
+// ONLY edit static/templates/icon-classes.scss
+// and run `npm run build-sass`
+
+.i {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  width: u(5rem);
+  height: u(5rem);
+  display: block;
+}
+
+// Classes for all icons
+<% _.each(icons, function(svg) { %>
+.i-<%= svg.name %> {
+  @include u-icon-bg($<%= svg.name %>, $primary);
+}
+<% }); %>

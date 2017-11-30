@@ -2,4 +2,7 @@ node_modules
 !docs/.gitkeep
 docs/
 
-public/js/main.js
+public/css/
+public/js/
+public/img/
+public/fonts/

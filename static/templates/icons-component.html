@@ -1,0 +1,16 @@
+<!--
+  ONLY edit static/templates/icon-component.html
+  and run `npm run build-icons-component`
+-->
+
+<div class="slab" style="padding: 2rem">
+  <h1 class="u-padding--bottom">Icons</h1>
+  <div class="grid grid--4-wide">
+<% _.each(icons, function(svg) { %>
+    <div class="grid__item">
+      <i class="i i-<%= svg.name %>"></i>
+      .i-<%= svg.name %>
+    </div>
+<% }); %>
+  </div>
+</div>
