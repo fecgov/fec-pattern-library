@@ -49,7 +49,7 @@ If this happens, you may see the following error message:
 
 If this happens, double-check that things you are trying to import in the pattern library actually exist in `fec-cms`.
 Look in https://github.com/18F/fec-cms/tree/develop/fec/fec/static/scss/components for the component specified by the error message.
-If you don’t find the component there, you can safely remove it from  […]/fec-pattern-library/static/scss/styles.scss on your branch, then save and execute `npm run build` again. The error message should no longer appear. 
+If you don’t find the component there, you can safely remove it from `[…]/fec-pattern-library/static/scss/styles.scss` on your branch, then save and execute `npm run build` again. The error message should no longer appear. 
 
 ## Front end asset management for components
 Component specific SCSS and JavaScript files are contained in the `public/` folder, and compiled files and assets are be served from the `public/` folder.
