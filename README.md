@@ -43,13 +43,13 @@ npm run-build-js
 Since the `fec-cms` repository is a dependency to this pattern library, there may be discrepancies between style components that exist in `fec-cms` and what this repository is attempting to import.
 
 If this happens, you may see the following error message:
-> Error: File to import not found or unreadable: ./node_modules/fec-cms/fec/fec/static/scss/components/stickybar.
+> Error: File to import not found or unreadable: ./node_modules/fec-cms/fec/fec/static/scss/components/[some-component].
 
 > Parent style sheet: […]/fec-pattern-library/static/scss/styles.scss
 
 If this happens, double-check that things you are trying to import in the pattern library actually exist in `fec-cms`.
 Look in https://github.com/18F/fec-cms/tree/develop/fec/fec/static/scss/components for the component specified by the error message.
-If you don’t find the component there, you can safely remove it from `[…]/fec-pattern-library/static/scss/styles.scss` on your branch, then save and execute `npm run build` again. The error message should no longer appear. 
+If you don’t find the component there, you can safely remove it from `[…]/fec-pattern-library/static/scss/styles.scss` on your branch, then save and execute `npm run build` again. The error message should no longer appear.
 
 ## Front end asset management for components
 Component specific SCSS and JavaScript files are contained in the `public/` folder, and compiled files and assets are be served from the `public/` folder.
