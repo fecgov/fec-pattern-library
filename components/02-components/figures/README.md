@@ -1,0 +1,1 @@
+Styles for combinations of labels + numbers. Labels can be either inline or above the numbers. Zero-padding with decimals is handled by JavaScript.
