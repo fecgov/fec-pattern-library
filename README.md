@@ -35,7 +35,7 @@ npm run build-sass
 Build JavaScript only:
 
 ```
-npm run-build-js
+npm run build-js
 ```
 
 ### Debugging
