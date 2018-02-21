@@ -42,7 +42,7 @@ npm run-build-js
 
 Since the `fec-cms` repository is a dependency to this pattern library, there may be discrepancies between style components that exist in `fec-cms` and what this repository is attempting to import.
 
-If this happens, you may see the following error message:
+If this happens, you may see the following error message in your terminal:
 > Error: File to import not found or unreadable: ./node_modules/fec-cms/fec/fec/static/scss/components/[some-component].
 
 > Parent style sheet: […]/fec-pattern-library/static/scss/styles.scss
