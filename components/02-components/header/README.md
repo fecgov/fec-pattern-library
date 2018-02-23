@@ -1,1 +1,1 @@
-*There are no notes for this component yet.* 
+The header should be positioned at the top of all FEC.gov pages and connected apps.
