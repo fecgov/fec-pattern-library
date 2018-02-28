@@ -1,1 +1,0 @@
-Allows users to set a custom period within a pre-defined limit. Often used for narrowing a span of time within a two-year period.
