@@ -15,28 +15,42 @@
   <button class="button--standard button--search--text" style="margin-right: 2rem">Button</button>
 
   <div style="margin-top: 2rem">Subscribe button: for subscribing to calendar updates in different formats</div>
-  <button class="button--standard button--subscribe" style="margin-right: 2rem">Button</button>
-  <div class="export-widget">
-  <div class="dropdown">
-    <button class="button button--standard dropdown__button button--subscribe">Subscribe</button>
-  </div>
-  </div>
-
-  <div style="margin-top: 2rem">Download button: to initiate a download with a choice of formats</div>
-  <button class="button--standard button--download" style="margin-right: 2rem">Button</button>
-  <div class="export-widget">
-  <div class="dropdown">
-    <button class="button button--standard dropdown__button button--download--dropdown">Download</button>
-  </div>
-  </div>
-
-  <div style="margin-top: 2rem">Add to calendar button</div>
-  <button class="button--standard button--add-calendar" style="margin-right: 2rem">Button</button>
-  <div class="export-widget">
-    <div class="dropdown">
-      <button class="button--standard dropdown__button dropdown__button--mini button--add-calendar--mini"><span class="u-visually-hidden">Download calendar</span></button>
+  <div id="calendar-subscribe" class="export-widget">
+    <div class="dropdown js-button-icon-dropdown">
+      <button class="button button--standard dropdown__button button--subscribe" style="width: auto">Subscribe</button>
+      <ul class="dropdown__panel dropdown__panel--right" aria-hidden="true">
+        <li class="dropdown__item"><a class="dropdown__value" href="">Apple calendar</a></li>
+        <li class="dropdown__item"><a class="dropdown__value" href="">Google calendar</a></li>
+        <li class="dropdown__item"><a class="dropdown__value" href="">Microsoft Outlook calendar</a></li>
+      </ul>
     </div>
   </div>
+  <button class="button--standard button--subscribe">Button</button>
+
+  <div style="margin-top: 2rem">Download button: to initiate a download with a choice of formats</div>
+  <div id="calendar-subscribe" class="export-widget">
+    <div class="dropdown js-button-icon-dropdown">
+      <button class="button button--standard dropdown__button button--download--dropdown">Download</button>
+      <ul class="dropdown__panel dropdown__panel--right" aria-hidden="true">
+        <li class="dropdown__item"><a class="dropdown__value" href="">.ics</a></li>
+        <li class="dropdown__item"><a class="dropdown__value" href="">.csv</a></li>
+      </ul>
+    </div>
+  </div>
+  <button class="button--standard button--download">Button</button>
+
+  <div style="margin-top: 2rem">Add to calendar button</div>
+  <div id="calendar-subscribe" class="export-widget">
+    <div class="dropdown js-button-icon-dropdown">
+      <button class="button--standard dropdown__button dropdown__button--mini button--add-calendar--mini"><span class="u-visually-hidden">Download calendar</span></button>
+      <ul class="dropdown__panel" aria-hidden="true">
+        <li class="dropdown__item"><a class="dropdown__value" href="">Apple Calendar</a></li>
+        <li class="dropdown__item"><a class="dropdown__value" href="" target="_blank">Google Calendar</a></li>
+        <li class="dropdown__item"><a class="dropdown__value" href="">Outlook Calendar</a></li>
+      </ul>
+    </div>
+  </div>
+  <button class="button--standard button--add-calendar" style="margin-right: 2rem">Button</button>
 
   <div style="margin-top: 2rem">Two candidates button: toggle two-candidate view on map comparison</div>
   <button class="button--standard button--two-candidates" style="margin-right: 2rem">Button</button>
