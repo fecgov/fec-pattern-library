@@ -1,0 +1,1 @@
+This is a banner. Use it wisely.
