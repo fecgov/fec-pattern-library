@@ -1,7 +1,5 @@
 [![Dependency Status](https://gemnasium.com/badges/github.com/fecgov/fec-pattern-library.svg)](https://gemnasium.com/github.com/fecgov/fec-pattern-library)
 
-[![CircleCI](https://circleci.com/gh/fecgov/fec-pattern-library.svg?style=svg)](https://circleci.com/gh/fecgov/fec-pattern-library)
-
 # FEC.gov Pattern Library
 
 This is the collection of styles and design patterns that make up fec.gov. It is built on [Fractal](http://fractal.build/guide).
