@@ -1,5 +1,27 @@
-<div class="slab">
+<div class="container" style="padding-top:2rem">
+  <div class="row">
+    <h3 class="tags__title">Viewing
+      <span class="js-count" aria-hidden="false">about
+        <span class="tags__count">7,000</span>
+      </span>
+      <span class="js-result-type">filtered results for:</span>
+    </h3><button type="button" class="js-filter-clear button--unstyled tags__clear" aria-hidden="false">Clear all filters</button>
+  </div>
+
   <ul class="tags" aria-hidden="false">
+    <li data-tag-category="data_type" class="tag__category">
+      <div data-id="data_type-toggle" data-removable="false" data-remove-on-switch="false" class="tag__item">
+        <span class="prefix">Data type: </span>processed
+      </div>
+    </li>
+    <li data-tag-category="date" class="tag__category tag__category__range--date">
+      <div data-id="min_date" data-removable="false" data-remove-on-switch="true" class="tag__item">
+        <span class="prefix">Beginning </span>01/01/2017
+      </div>
+      <div data-id="max_date" data-removable="false" data-remove-on-switch="true" class="tag__item">
+        <span class="prefix">Ending </span>03/03/2018
+      </div>
+    </li>
     <li data-tag-category="has_raised_funds" class="tag__category">
       <div data-id="cycle-checkbox-has-raised-funds" data-removable="true" class="tag__item">
         Has raised more than $0
@@ -15,6 +37,14 @@
     <li data-tag-category="party" class="tag__category">
       <div data-id="party-DEM" data-removable="true" class="tag__item">Democratic Party
         <button class="button js-close tag__remove"><span class="u-visually-hidden">Remove</span></button>
+      </div>
+    </li>
+    <li data-tag-category="line_number" class="tag__category">
+      <div data-id="line_number-F3-11D" data-removable="true" class="tag__item">
+        <span class="prefix">House or Senate committees: </span>Contributions from the candidate (Line 11d)
+        <button class="button js-close tag__remove">
+          <span class="u-visually-hidden">Remove</span>
+        </button>
       </div>
     </li>
   </ul>
