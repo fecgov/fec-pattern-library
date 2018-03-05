@@ -1,122 +1,69 @@
-<div class="slab slab--neutral" style="padding: 1rem 2rem">
-  Browse button: For links to the datatable view
-  <div style="padding-bottom: 10px;">
-    <button class="button--standard button--browse">Button</button>
-    <button class="button--cta button--browse">Button</button>
-    <button class="button--alt button--browse">Button</button>
-    <button class="button--cta-primary button--browse">Button</button>
-    <button class="button--alt-primary button--browse">Button</button>
-    <button class="button--cta-secondary button--browse">Button</button>
-    <button class="button--alt-secondary button--browse">Button</button>
-  </div>
+<div class="slab" style="padding: 1rem 2rem">
+  <div>Browse button: For links to the datatable view</div>
+  <button class="button--standard button--browse" style="margin-right: 2rem">Button</button>
 
-  Document button
-  <div style="padding-bottom: 10px;">
-    <button class="button--standard button--document">Button</button>
-    <button class="button--cta button--document">Button</button>
-    <button class="button--alt button--document">Button</button>
-    <button class="button--cta-primary button--document">Button</button>
-    <button class="button--alt-primary button--document">Button</button>
-    <button class="button--cta-secondary button--document">Button</button>
-    <button class="button--alt-secondary button--document">Button</button>
-  </div>
+  <div style="margin-top: 2rem">Document button: for opening documents</div>
+  <button class="button--standard button--document" style="margin-right: 2rem">Button</button>
 
-  Download button
-  <div style="padding-bottom: 10px;">
-    <button class="button--standard button--download">Button</button>
-    <button class="button--cta button--download">Button</button>
-    <button class="button--alt button--download">Button</button>
-    <button class="button--cta-primary button--download">Button</button>
-    <button class="button--alt-primary button--download">Button</button>
-    <button class="button--cta-secondary button--download">Button</button>
-    <button class="button--alt-secondary button--download">Button</button>
-  </div>
+  <div style="margin-top: 2rem">List button: to show a list view</div>
+  <button class="button--standard button--list" style="margin-right: 2rem">Button</button>
 
-  List button: list view
-  <div style="padding-bottom: 10px;">
-    <button class="button--standard button--list">Button</button>
-    <button class="button--cta button--list">Button</button>
-    <button class="button--alt button--list">Button</button>
-    <button class="button--cta-primary button--list">Button</button>
-    <button class="button--alt-primary button--list">Button</button>
-    <button class="button--cta-secondary button--list">Button</button>
-    <button class="button--alt-secondary button--list">Button</button>
-  </div>
+  <div style="margin-top: 2rem">Map button: to see a map view</div>
+  <button class="button--standard button--map" style="margin-right: 2rem">Button</button>
 
-  Map button
-  <div style="padding-bottom: 10px;">
-    <button class="button--standard button--map">Button</button>
-    <button class="button--cta button--map">Button</button>
-    <button class="button--alt button--map">Button</button>
-    <button class="button--cta-primary button--map">Button</button>
-    <button class="button--alt-primary button--map">Button</button>
-    <button class="button--cta-secondary button--map">Button</button>
-    <button class="button--alt-secondary button--map">Button</button>
-  </div>
+  <div style="margin-top: 2rem">Search button: search with text</div>
+  <button class="button--standard button--search--text" style="margin-right: 2rem">Button</button>
 
-  Search button: search with text
-  <div style="padding-bottom: 10px;">
-    <button class="button--standard button--search--text">Button</button>
-    <button class="button--cta button--search--text">Button</button>
-    <button class="button--alt button--search--text">Button</button>
-    <button class="button--cta-primary button--search--text">Button</button>
-    <button class="button--alt-primary button--search--text">Button</button>
-    <button class="button--cta-secondary button--search--text">Button</button>
-    <button class="button--alt-secondary button--search--text">Button</button>
+  <div style="margin-top: 2rem">Subscribe button: for subscribing to calendar updates in different formats</div>
+  <div id="calendar-subscribe" class="export-widget">
+    <div class="dropdown js-button-icon-dropdown">
+      <button class="button button--standard dropdown__button button--subscribe" style="width: auto">Subscribe</button>
+      <ul class="dropdown__panel dropdown__panel--right" aria-hidden="true">
+        <li class="dropdown__item"><a class="dropdown__value" href="">Apple calendar</a></li>
+        <li class="dropdown__item"><a class="dropdown__value" href="">Google calendar</a></li>
+        <li class="dropdown__item"><a class="dropdown__value" href="">Microsoft Outlook calendar</a></li>
+      </ul>
+    </div>
   </div>
+  <button class="button--standard button--subscribe">Button</button>
 
-  Subscribe button
-  <div style="padding-bottom: 10px;">
-    <button class="button--standard button--subscribe">Button</button>
-    <button class="button--cta button--subscribe">Button</button>
-    <button class="button--alt button--subscribe">Button</button>
-    <button class="button--cta-primary button--subscribe">Button</button>
-    <button class="button--alt-primary button--subscribe">Button</button>
-    <button class="button--cta-secondary button--subscribe">Button</button>
-    <button class="button--alt-secondary button--subscribe">Button</button>
+  <div style="margin-top: 2rem">Download button: to initiate a download with a choice of formats</div>
+  <div id="calendar-subscribe" class="export-widget">
+    <div class="dropdown js-button-icon-dropdown">
+      <button class="button button--standard dropdown__button button--download--dropdown">Download</button>
+      <ul class="dropdown__panel dropdown__panel--right" aria-hidden="true">
+        <li class="dropdown__item"><a class="dropdown__value" href="">.ics</a></li>
+        <li class="dropdown__item"><a class="dropdown__value" href="">.csv</a></li>
+      </ul>
+    </div>
   </div>
+  <button class="button--standard button--download">Button</button>
 
-  Two candidates button: toggle two-candidate view on map comparison
-  <div style="padding-bottom: 10px;">
-    <button class="button--standard button--two-candidates">Button</button>
-    <button class="button--cta button--two-candidates">Button</button>
-    <button class="button--alt button--two-candidates">Button</button>
-    <button class="button--cta-primary button--two-candidates">Button</button>
-    <button class="button--alt-primary button--two-candidates">Button</button>
-    <button class="button--cta-secondary button--two-candidates">Button</button>
-    <button class="button--alt-secondary button--two-candidates">Button</button>
+  <div style="margin-top: 2rem">Add to calendar button</div>
+  <div id="calendar-subscribe" class="export-widget">
+    <div class="dropdown js-button-icon-dropdown">
+      <button class="button--standard dropdown__button dropdown__button--mini button--add-calendar--mini"><span class="u-visually-hidden">Download calendar</span></button>
+      <ul class="dropdown__panel" aria-hidden="true">
+        <li class="dropdown__item"><a class="dropdown__value" href="">Apple Calendar</a></li>
+        <li class="dropdown__item"><a class="dropdown__value" href="" target="_blank">Google Calendar</a></li>
+        <li class="dropdown__item"><a class="dropdown__value" href="">Outlook Calendar</a></li>
+      </ul>
+    </div>
   </div>
+  <button class="button--standard button--add-calendar" style="margin-right: 2rem">Button</button>
 
-  Export button
-  <div style="padding-bottom: 10px;">
-    <button class="button--standard button--export">Button</button>
-    <button class="button--cta button--export">Button</button>
-    <button class="button--alt button--export">Button</button>
-    <button class="button--cta-primary button--export">Button</button>
-    <button class="button--alt-primary button--export">Button</button>
-    <button class="button--cta-secondary button--export">Button</button>
-    <button class="button--alt-secondary button--export">Button</button>
-  </div>
+  <div style="margin-top: 2rem">Two candidates button: toggle two-candidate view on map comparison</div>
+  <button class="button--standard button--two-candidates" style="margin-right: 2rem">Button</button>
 
-  Go button
-  <div style="padding-bottom: 10px;">
-    <button class="button--standard button--go">Button</button>
-    <button class="button--cta button--go">Button</button>
-    <button class="button--alt button--go">Button</button>
-    <button class="button--cta-primary button--go">Button</button>
-    <button class="button--alt-primary button--go">Button</button>
-    <button class="button--cta-secondary button--go">Button</button>
-    <button class="button--alt-secondary button--go">Button</button>
-  </div>
+  <div style="margin-top: 2rem">Back button</div>
+  <button class="button--standard button--back" style="margin-right: 2rem">Button</button>
 
-  Table button
-  <div style="padding-bottom: 10px;">
-    <button class="button--standard button--table">Button</button>
-    <button class="button--cta button--table">Button</button>
-    <button class="button--alt button--table">Button</button>
-    <button class="button--cta-primary button--table">Button</button>
-    <button class="button--alt-primary button--table">Button</button>
-    <button class="button--cta-secondary button--table">Button</button>
-    <button class="button--alt-secondary button--table">Button</button>
-  </div>
+  <div style="margin-top: 2rem">Go button: to initiate the next step in a sequence</div>
+  <button class="button--standard button--go" style="margin-right: 2rem">Go</button>
+
+  <div style="margin-top: 2rem">Export button: for exporting files</div>
+  <button class="button--standard button--export" style="margin-right: 2rem">Button</button>
+
+  <div style="margin-top: 2rem">Table button</div>
+  <button class="button--standard button--table" style="margin-right: 2rem">Button</button>
 </div>

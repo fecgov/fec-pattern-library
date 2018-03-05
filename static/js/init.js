@@ -24,6 +24,10 @@ $('.js-dropdown').each(function() {
   new dropdown.Dropdown(this);
 });
 
+$('.js-button-icon-dropdown').each(function() {
+  new dropdown.Dropdown(this, {checkboxes: false});
+});
+
 if ($('.js-keyword-modal').length > 0) {
   new KeywordModal();
 }
