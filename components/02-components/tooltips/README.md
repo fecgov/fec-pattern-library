@@ -9,4 +9,4 @@ _Ex: The “[Restrict contributions](https://www.fec.gov/data/receipts/?data_typ
 
 ## Guidance
 - Keep the content short and direct
-- If you find yourself writing copy that explains how to use the interface, evaluate whether you have actually solved the original design problem in a user-centered way. Tooltip content should not contain instructions for how to use an interface. Conduct usability testing to better understand the problems with the interface’s design.
+- Tooltip content should not contain instructions for how to use an interface. If you find yourself writing copy that explains how to use the interface, evaluate whether you have actually solved the original design problem in a user-centered way. Conduct usability testing to better understand the problems with the interface’s design.
