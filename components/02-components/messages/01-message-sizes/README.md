@@ -16,3 +16,6 @@ Messages keep users informed of important and sometimes time-sensitive changes.
 - When you need to use a message as an element within a layout that’s always present, instead of one that appears briefly</br>
 _Ex: Time-sensitive events being promoted on the [home page](https://www.fec.gov/)_</br>
 _Ex: Export warnings on [data tables](https://www.fec.gov/data/receipts)_
+
+### Resources
+Learn more about accessibility and best practices for alerts from the [U.S. Web Design System](https://designsystem.digital.gov/components/alerts/).
