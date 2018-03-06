@@ -2,7 +2,7 @@ Tooltips contain contextual annotations or helper text on demand when a user hov
 
 ## When to use
 - When a setting or control is highly specific to the FEC’s unique subject matter or context </br>
-_Ex: The “[Restrict contributions](https://www.fec.gov/data/receipts/?data_type=processed&two_year_transaction_period=2018&min_date=01%2F01%2F2017&max_date=03%2F02%2F2018)” filter_
+_Ex: The “[Restrict contributions](https://www.fec.gov/data/receipts)” filter_
 
 ## When to consider something else
 - If users needs to refer back to the content frequently, or the content is critical to understanding functionality or context, consider making the annotation part of the constant interface
