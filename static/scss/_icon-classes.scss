@@ -220,10 +220,6 @@
   @include u-icon-bg($hand-money, $primary);
 }
 
-.i-icons_table {
-  @include u-icon-bg($icons_table, $primary);
-}
-
 .i-individual-contributions {
   @include u-icon-bg($individual-contributions, $primary);
 }
@@ -234,10 +230,6 @@
 
 .i-info-circle {
   @include u-icon-bg($info-circle, $primary);
-}
-
-.i-info-person {
-  @include u-icon-bg($info-person, $primary);
 }
 
 .i-list {
@@ -274,6 +266,10 @@
 
 .i-moving-envelope-circle {
   @include u-icon-bg($moving-envelope-circle, $primary);
+}
+
+.i-moving-envelope {
+  @include u-icon-bg($moving-envelope, $primary);
 }
 
 .i-notebook {
