@@ -14,4 +14,4 @@ The Typography, Colors, Grid, and Icons sections contain the foundational style 
 Components are small basic building blocks that are used to build larger features or layouts.
 
 ## Feedback
-<a href="https://github.com/18f/fec-pattern-library/issues/new">Report a bug</a> or access the code on <a href="https://github.com/18f/fec-pattern-library">GitHub</a>.
+<a href="https://github.com/fecgov/fec-pattern-library/issues/new">Report a bug</a> or access the code on <a href="https://github.com/fecgov/fec-pattern-library">GitHub</a>.
