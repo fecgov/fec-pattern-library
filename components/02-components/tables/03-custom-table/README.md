@@ -1,4 +1,4 @@
-Custom tables are used in [statistical press releases](https://www.fec.gov/updates/statistical-summary-six-month-campaign-activity-2017-2018-election-cycle/) to present financial information. This component was designed specifically to work within the constraints the existing Wagtail table block at the time. 
+Custom tables are used in [statistical press releases](https://www.fec.gov/updates/statistical-summary-six-month-campaign-activity-2017-2018-election-cycle/) to present financial information. This component was designed specifically to work within the constraints the existing Wagtail table block at the time. The styling right-aligns content in cells that aren't headers, which is only appropriate for integer data.
 
 ## When to use
 - When you need both a header row and a header column
