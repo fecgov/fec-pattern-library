@@ -1,0 +1,125 @@
+<div class="container" style="padding: 2rem"> Campaign finance data
+  <div class="data-container__widgets js-data-widgets"></div>
+    <div class="data-container__datatable">
+      <div id="results_wrapper" class="dataTables_wrapper no-footer dataTables_wrapper--panel">
+        <div class="panel__main">
+          <div class="overlay is-loading" style="display: none;"></div>
+        <table id="results" class="data-table data-table--heading-borders dataTable no-footer dtr-undefined" aria-live="polite" role="grid" style="width: 100%;">
+          <thead role="rowgroup">
+            <tr role="row">
+              <th scope="col" role="columnheader" class="all sorting" tabindex="0" aria-controls="results" rowspan="1" colspan="1" aria-label="Name: activate to sort column ascending">Name</th>
+              <th scope="col" role="columnheader" class="min-desktop sorting" tabindex="0" aria-controls="results" rowspan="1" colspan="1" aria-label="Party: activate to sort column ascending">Party</th>
+              <th scope="col" role="columnheader" class="min-tablet hide-panel column--number sorting_desc" tabindex="0" aria-controls="results" rowspan="1" colspan="1" aria-sort="descending" aria-label="Receipts: activate to sort column ascending">Receipts</th>
+              <th scope="col" role="columnheader" class="min-tablet hide-panel column--number sorting" tabindex="0" aria-controls="results" rowspan="1" colspan="1" aria-label="Disbursements: activate to sort column descending">Disbursements</th>
+              <th scope="col" class="all column--trigger sorting_disabled" rowspan="1" colspan="1" aria-label=""></th>
+            </tr>
+          </thead>
+          <tbody class="js-panel-toggle" role="rowgroup">
+            <tr role="row" class="odd js-panel-trigger row--has-panel">
+            <td class=" all" scope="row"><a href="/data/candidate/P00003392/" title="CLINTON, HILLARY RODHAM / TIMOTHY MICHAEL KAINE" data-category="candidate">CLINTON, HILLARY RODHAM / TIMOTHY MICHAEL KAINE</a></td><td class=" min-desktop">DEMOCRATIC PARTY</td><td class="min-tablet hide-panel column--number sorting_1">$585,699,061.27</td>
+            <td class=" min-tablet hide-panel column--number">$585,580,576.76</td>
+            <td class=" all column--trigger"><button class="js-panel-button button--panel"><span class="u-visually-hidden">Toggle details</span></button></td>
+          </tr>
+          <tr role="row" class="even js-panel-trigger row--has-panel">
+            <td class=" all" scope="row"><a href="/data/candidate/P80001571/" title="TRUMP, DONALD J. / MICHAEL R. PENCE " data-category="candidate">TRUMP, DONALD J. / MICHAEL R. PENCE </a></td>
+            <td class=" min-desktop">REPUBLICAN PARTY</td>
+            <td class="min-tablet hide-panel column--number sorting_1">$350,668,435.70</td>
+            <td class=" min-tablet hide-panel column--number">$343,056,732.78</td>
+            <td class=" all column--trigger"><button class="js-panel-button button--panel"><span class="u-visually-hidden">Toggle details</span></button></td>
+          </tr><tr role="row" class="odd js-panel-trigger row--has-panel">
+            <td class=" all" scope="row"><a href="/data/candidate/P60007168/" title="SANDERS, BERNARD" data-category="candidate">SANDERS, BERNARD</a></td>
+            <td class=" min-desktop">DEMOCRATIC PARTY</td><td class="min-tablet hide-panel column--number sorting_1">$237,640,609.52</td>
+            <td class=" min-tablet hide-panel column--number">$232,185,441.62</td>
+            <td class=" all column--trigger"><button class="js-panel-button button--panel"><span class="u-visually-hidden">Toggle details</span></button></td>
+          </tr><tr role="row" class="even js-panel-trigger row--has-panel">
+            <td class=" all" scope="row"><a href="/data/candidate/P60006111/" title="CRUZ, RAFAEL EDWARD &quot;TED&quot;" data-category="candidate">CRUZ, RAFAEL EDWARD "TED"</a></td>
+            <td class=" min-desktop">REPUBLICAN PARTY</td>
+            <td class="min-tablet hide-panel column--number sorting_1">$94,338,654.84</td>
+            <td class=" min-tablet hide-panel column--number">$94,304,803.32</td>
+            <td class=" all column--trigger"><button class="js-panel-button button--panel"><span class="u-visually-hidden">Toggle details</span></button></td>
+          </tr><tr role="row" class="odd js-panel-trigger row--has-panel">
+            <td class=" all" scope="row"><a href="/data/candidate/P60005915/" title="CARSON, BENJAMIN S SR MD" data-category="candidate">CARSON, BENJAMIN S SR MD</a></td>
+            <td class=" min-desktop">REPUBLICAN PARTY</td>
+            <td class="min-tablet hide-panel column--number sorting_1">$65,091,035.97</td>
+            <td class=" min-tablet hide-panel column--number">$64,530,285.46</td>
+            <td class=" all column--trigger"><button class="js-panel-button button--panel"><span class="u-visually-hidden">Toggle details</span></button></td>
+          </tr>
+          </tbody>
+        </table>
+
+          <div id="datatable-modal" class="panel__overlay" aria-hidden="true" style="display: block;">
+            <div class="panel">
+              <div class="panel__row panel__navigation">
+                <a class="panel__link button--small button--standard js-pdf_url" target="_blank">Open original image</a>
+              </div>
+              <button class="js-hide js-panel-close panel__close button--small button" data-hides="datatable-modal"><span class="u-visually-hidden">Show all</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="results-info">
+            <div class="dataTables_length" id="results_length">
+              <label for="results-length">Results per page:
+                <select name="results_length" aria-controls="results" class="" id="results-length">
+                  <option value="30">30</option>
+                  <option value="50">50</option>
+                  <option value="100">100</option>
+                </select>
+              </label>
+            </div>
+          <div class="dataTables_paginate paging_simple" id="results_paginate">
+            <a class="paginate_button previous disabled" aria-controls="results" data-dt-idx="0" tabindex="0" id="results_previous">Previous</a>
+            <a class="paginate_button next" aria-controls="results" data-dt-idx="1" tabindex="0" id="results_next">Next</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="container" style="padding: 2rem"> Legal case data
+  <table class="data-table simple-table" style="table-layout: auto;">
+    <thead>
+      <tr>
+        <th scope="col">Date</th>
+        <th scope="col">Name</th>
+        <th scope="col">Document type</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>09/20/2017</td>
+          <td><a href="#">2017-10</a></td>
+          <td>Final Opinion</td>
+        </tr>
+
+        <tr>
+          <td>09/20/2017</td>
+          <td><a href="#">Vote</a></td>
+          <td>Votes</td>
+        </tr>
+
+        <tr>
+          <td>09/19/2017</td>
+          <td><a href="#">Draft AO, Agenda Document No. 17-39-B</a></td>
+          <td>Draft Documents</td>
+        </tr>
+
+        <tr>
+          <td>09/07/2017</td>
+          <td><a href="#">Draft AO, Agenda Document No. 17-39-A</a></td>
+          <td>Draft Documents</td>
+        </tr>
+
+        <tr>
+          <td>08/23/2017</td>
+          <td><a href="#">Supplemental Material from Citizens Against Plutocracry PAC</a></td>
+          <td>AO Request, Supplemental Material, and Extensions of Time</td>
+        </tr>
+
+        <tr>
+          <td>08/02/2017</td>
+          <td><a href="#">Request by Citizens Against Plutocracy PAC</a></td>
+          <td>AO Request, Supplemental Material, and Extensions of Time</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
