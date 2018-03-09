@@ -14,7 +14,7 @@
   "devDependencies": {
     "browserify": "^11.0.1",
     "del": "^3.0.0",
-    "fec-cms": "git+https://github.com/18F/fec-cms.git#develop",
+    "fec-cms": "git+https://github.com/fecgov/fec-cms.git#develop",
     "fs-extra": "^4.0.2",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.0",
