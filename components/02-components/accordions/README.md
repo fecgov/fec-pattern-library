@@ -11,3 +11,6 @@ Accordions are collapsible panels that provide users with the ability to expand 
 ### Guidance from the [U.S. Web Design System](https://designsystem.digital.gov/components/accordions/)
 > - Allow users to click anywhere in the header area to expand or collapse the content; a larger target is easier to manipulate.
 > - Make sure interactive elements within the collapsible region are far enough from the headers that users don’t accidentally trigger a collapse. (The exact distance depends on the device.)
+
+### GitHub issues
+ - [#315: Improve usability and visual design of accordion elements](https://github.com/18f/fec-style/issues/315)
