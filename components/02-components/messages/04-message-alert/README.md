@@ -11,3 +11,7 @@
 > - But don’t overdo it — too many notifications will either overwhelm or annoy the user and are likely to be ignored.
 > - Allow a user to dismiss a notification wherever appropriate.
 > - Don’t include notifications that aren’t related to the user’s current goal.
+
+### GitHub issues
+ - [#158: In order to have consistent and easy-to-implement alerts, define alert icon styles](https://github.com/18F/fec-style/issues/158)
+ - [#266: Unify error / info / message styles](https://github.com/18f/fec-style/issues/266)

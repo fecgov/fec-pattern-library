@@ -24,3 +24,6 @@ _Ex: Export warnings on [data tables](https://www.fec.gov/data/receipts)_
 > - But don’t overdo it — too many notifications will either overwhelm or annoy the user and are likely to be ignored.
 > - Allow a user to dismiss a notification wherever appropriate.
 > - Don’t include notifications that aren’t related to the user’s current goal.
+
+### GitHub issues
+ - [#266: Unify error / info / message styles](https://github.com/18f/fec-style/issues/266)
