@@ -20,3 +20,7 @@ Buttons follow the **color pairing** rules used across the site. There are three
 > - Button labels should be as short as possible with “trigger words” that your users will recognize to clearly explain what will happen when the button is clicked (for example, “download,” “view” or “sign up”).
 > - Make the first word of the button’s label a verb. For example, instead of “Complaint Filing” label the button “File a complaint.”
 > - At times, consider adding an icon to signal specific actions (“download”, “open in a new window”, etc).
+
+### GitHub issues
+ - [#288: Revise base button design](https://github.com/18F/fec-style/issues/288)
+ - [#297: Implement new button styles](https://github.com/18F/fec-style/issues/297)
