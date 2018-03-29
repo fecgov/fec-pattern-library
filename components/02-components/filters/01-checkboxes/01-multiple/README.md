@@ -14,3 +14,6 @@ Checkboxes allow users to select one or more options from a visible list.
 > - List options vertically if possible; horizontal listings can make it difficult to tell which label pertains to which checkbox.
 > - Avoid using negative language in labels as they can be counterintuitive. For example, “I want to receive a promotional email” instead of “I don’t want to receive promotional email.”
 > - Make sure selections are adequately spaced for touch screens.
+
+### GitHub issues
+ - [#314: Improve usability and visual design of check box and radio button elements](https://github.com/18f/fec-style/issues/314)
