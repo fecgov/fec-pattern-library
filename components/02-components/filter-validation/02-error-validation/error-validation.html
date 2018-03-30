@@ -1,0 +1,68 @@
+<!-- Server error -->
+
+<div class="container" style="padding: 1rem 2rem">
+Server error
+  <div id="filters" class="filters is-open" style="border: none; padding: 20px;">
+  <div class="filter js-filter" id="contributor_city-field" data-filter="text">
+    <label class="label" for="contributor_city">City</label>
+    <ul class="js-filter dropdown__selected" data-filter="checkbox" data-removable="true">
+      <li><input id="contributor_city1" name="contributor_city" value="boston" type="checkbox" checked="">
+        <label for="contributor_city1" class="is-unsuccessful">"boston"</label>
+        <div class="filter__message filter__message--error" style>
+        <strong>We had trouble processing your request</strong>
+        <br>
+        Please try again. If you still have trouble,<button class="js-filter-feedback">let us know</button></div>
+        <button class="dropdown__remove js-remove"><span class="u-visually-hidden">Remove</span></button>
+      </li>
+    </ul>
+    <div class="combo combo--filter--mini">
+      <input id="contributor_city" type="text" name="contributor_city" class="combo__input" tabindex="0">
+      <button class="combo__button button--go button--standard is-disabled" type="button" tabindex="0">
+        <span class="u-visually-hidden">Search</span>
+      </button>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- Invalid entry or selection error -->
+<div class="container" style="padding: 1rem 2rem">
+  Invalid entry
+  <div id="filters" class="filters is-open" style="border: none; padding: 20px;">
+  <div class="filter">
+    <div class="js-filter js-filter-control" data-filter="select" data-validate="true" data-modifies-filter="date" data-modifies-property="data-transaction-year" data-required-default="2018">
+      <label class="label t-inline-block" for="two-year-transaction-period">Transaction time period</label>
+      <div class="tooltip__container">
+        <button class="tooltip__trigger" type="button" tabindex="0"><span class="u-visually-hidden">Learn more</span></button>
+        <div id="year-tooltip" role="tooltip" class="tooltip tooltip--under tooltip--left">
+          <p class="tooltip__content">The two-year period in which the transaction was made. Due to the large number of itemized transactions, you can only access one period at a time.</p>
+        </div>
+      </div>
+      <select id="two-year-transaction-period" name="two_year_transaction_period" tabindex="0">
+          <option value="2018">2017–2018</option>
+          <option value="2016">2015–2016</option>
+          <option value="2014">2013–2014</option>
+          <option value="2012">2011–2012</option>
+          <option value="2010">2009–2010</option>
+      </select>
+    </div>
+    <div class="js-filter" id="date" data-filter="date" data-name="date" data-validate="true">
+      <div class="range range--date js-date-range">
+        <div class="range__input range__input--min" data-filter="range">
+          <label for="min_date">Beginning</label>
+          <input type="text" id="min_date" name="min_date" data-range="min" class="js-min-date" data-prefix="Beginning" tabindex="0">
+        </div>
+        <div class="range__hyphen">-</div>
+        <div class="range__input range__input--max" data-filter="range">
+          <label for="max_date">Ending</label>
+          <input type="text" id="max_date" name="max_date" data-range="max" class="js-max-date" data-prefix="Ending" tabindex="0">
+        </div>
+        <button class="button--go button--standard" type="button" tabindex="0">
+          <span class="u-visually-hidden">Search</span>
+        </button>
+      </div>
+      <div class="filter__message filter__message--error">You entered a date that's outside the two-year time period. Please enter a receipt date from <strong>2017-2018</strong></div>
+    </div>
+  </div>
+  </div>
+</div>
