@@ -10,3 +10,7 @@ Feeds display single posts chronologically, with the most recent posts appearing
 ### Examples
 - [Latest updates feed](https://www.fec.gov/updates/)
 - Reports about the FEC: [Strategy, budget and performance category](https://www.fec.gov/about/reports-about-fec/strategy-budget-and-performance/)
+
+### GitHub issues
+ - [#443: Create UX design for "missives" index page](https://github.com/fecgov/fec-cms/issues/443)
+ - [#454: Visual design of Latest Updates index page](https://github.com/fecgov/fec-cms/issues/454)
