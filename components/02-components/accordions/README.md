@@ -8,9 +8,9 @@ Accordions are collapsible panels that provide users with the ability to expand 
 - If visitors need to see most or all of the information on a page. Use well-formatted text instead.
 - If there is not enough content to warrant condensing. Accordions increase cognitive load and interaction cost, as users have to make decisions about what headers to click on.
 
-## Guidance
-- Allow users to click anywhere in the header area to expand or collapse the content; a larger target is easier to manipulate.
-- Make sure interactive elements within the collapsible region are far enough from the headers that users don’t accidentally trigger a collapse. (The exact distance depends on the device.)
+### Guidance from the [U.S. Web Design System](https://designsystem.digital.gov/components/accordions/)
+> - Allow users to click anywhere in the header area to expand or collapse the content; a larger target is easier to manipulate.
+> - Make sure interactive elements within the collapsible region are far enough from the headers that users don’t accidentally trigger a collapse. (The exact distance depends on the device.)
 
-### Resources
-Learn more about accessibility and best practices for accordions from the [U.S. Web Design System](https://designsystem.digital.gov/components/accordions/).
+### GitHub issues
+ - [#315: Improve usability and visual design of accordion elements](https://github.com/18f/fec-style/issues/315)

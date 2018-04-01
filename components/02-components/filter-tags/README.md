@@ -3,3 +3,8 @@ Filter tags help users track and confirm which filters have been applied when th
 Tags aren’t removable when they apply strict limits to the data being viewed, such as
 - one two-year period of time per search
 - a persistent toggle, like processed/raw data
+
+### GitHub issues
+ - [#1330: Interaction construction of and/or signifier in tag area of data tables](https://github.com/18F/openFEC-web-app/issues/1330)
+ - [#1329: Visual design of co-located tag and filter system](https://github.com/18F/openFEC-web-app/issues/1329)
+ - [#1872: Design specific tag UI for date ranges and financial ranges](https://github.com/fecgov/openFEC/issues/1872#issuecomment-241447101)

@@ -7,3 +7,6 @@ The `.simple-table--display` modifier class adds vertical rules, alternating bac
 
 ## When to consider something else
 - If you need a row header and a column header, or if you need to present financial data, consider the [custom table component](/components/detail/custom-table)
+
+### GitHub issues
+ - [#111: Adding simple table styles for cms pages](https://github.com/18f/fec-style/issues/111)

@@ -9,11 +9,11 @@ Checkboxes allow users to select one or more options from a visible list.
 - If there are too many options to display on a mobile screen.
 - If a user can only select one option from a list (use radio buttons instead).
 
-## Guidelines
-- Users should be able to tap on or click on either the text label or the checkbox to select or deselect an option.
-- List options vertically if possible; horizontal listings can make it difficult to tell which label pertains to which checkbox.
-- Avoid using negative language in labels as they can be counterintuitive. For example, “I want to receive a promotional email” instead of “I don’t want to receive promotional email.”
-- Make sure selections are adequately spaced for touch screens.
+### Guidance from the [U.S. Web Design System](https://designsystem.digital.gov/components/form-controls/#checkboxes)
+> - Users should be able to tap on or click on either the text label or the checkbox to select or deselect an option.
+> - List options vertically if possible; horizontal listings can make it difficult to tell which label pertains to which checkbox.
+> - Avoid using negative language in labels as they can be counterintuitive. For example, “I want to receive a promotional email” instead of “I don’t want to receive promotional email.”
+> - Make sure selections are adequately spaced for touch screens.
 
-### Resources
-Learn more about accessibility and best practices for checkboxes from the [U.S. Web Design System](https://designsystem.digital.gov/components/form-controls/#checkboxes).
+### GitHub issues
+ - [#314: Improve usability and visual design of check box and radio button elements](https://github.com/18f/fec-style/issues/314)

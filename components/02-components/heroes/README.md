@@ -6,3 +6,6 @@ Existing color associations:
 - Legal resources: `.primary`
 - About: `.secondary`
 - Press: `.secondary`
+
+### GitHub issues
+ - [#330: Reduce height of hero](https://github.com/18F/fec-style/issues/330)

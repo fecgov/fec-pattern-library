@@ -9,8 +9,8 @@ Single select dropdowns allow users to select one option.
 - If the list of options is very short. Use radio buttons or checkboxes instead.
 - If the list of options is very long. Let users type the same information into a text input that suggests possible options instead (search with typeahead matching).
 
-## Guidance
-Test dropdowns thoroughly with members of your target audience. Several usability experts suggest they should be the “UI of last resort.” Many users find them confusing and difficult to use.
+### Guidance from the [U.S. Web Design System](https://designsystem.digital.gov/components/form-controls/#dropdown)
+> Test dropdowns thoroughly with members of your target audience. Several usability experts suggest they should be the “UI of last resort.” Many users find them confusing and difficult to use.
 
-### Resources
-Learn more about accessibility and best practices for dropdowns from the [U.S. Web Design System](https://designsystem.digital.gov/components/form-controls/#dropdown).
+### GitHub issues
+ - [#297: Implement new button styles](https://github.com/18F/fec-style/issues/297)

@@ -4,7 +4,7 @@ The breadcrumbs component is used for navigation and to reinforce users' awarene
 The background container color for the breadcrumbs bar should match the color assigned to the information architecture of that section of the website. You can find this color by matching it to the color of the hero slab on the section's main landing page.
 
 ## When to use
-- On any page deeper in the site architecture than the main section landing pages 
+- On any page deeper in the site architecture than the main section landing pages
 
 ## When to consider something else
  - If the page is a landing page for one of the top-level menu items, breadcrumbs aren't needed and can be omitted. These pages include:
@@ -13,3 +13,6 @@ The background container color for the breadcrumbs bar should match the color as
   - `/legal-resources`
   - `/about`
   - `/press`
+
+  ### GitHub issues
+   - [#1595: Style breadcrumbs](https://github.com/fecgov/openFEC/issues/1595)
