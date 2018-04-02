@@ -1,7 +1,7 @@
 Validation messages are displayed **after** a user has interacted with a particular field. Error validations help users learn that their choices were not applied, either because their entries were incompatible with what the field accepts, or because of a site error.
 
 ## When to use
-- When a users intended action has not been applied
+- When a user's intended action has not been applied
 - When a user's entry to a field or selection has not been accepted by the system
 
 ## When to consider something else

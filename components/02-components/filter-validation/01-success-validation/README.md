@@ -1,7 +1,7 @@
 Validation messages are displayed **after** a user has interacted with a particular field. Success validations help users feel confident that their changes to filters or fields have been applied.
 
 ## When to use
-- When a users intended action has affirmatively been applied (even if that action is _removing_ a filter, validations confirm that the filter was successfully removed)
+- When a user's intended action has affirmatively been applied (even if that action is _removing_ a filter, validations confirm that the filter was successfully removed)
 - When a user's entry to a field has been accepted by the system, such as meeting password requirements
 
 ## When to consider something else
