@@ -9,5 +9,5 @@ Cards act as an entry point to finding more detailed information. They are inten
 
 ## Guidance
 - A card should be a singular link or provide a limited set of actions
-- Keep the content short a direct
+- Keep the content short and direct
 - Avoid inline links, except if the card uses the `card--wide` style, which allows for complex text structure. In this case, the card title should be the main entry point link. If necessary, there could be secondary, more specific inline links in the the copy below the card title.
