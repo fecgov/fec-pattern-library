@@ -1,0 +1,228 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.2
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > browser-sync > connect > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > finalhandler > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-index > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > localtunnel > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > browser-sync > connect > debug':
+        patched: '2018-04-13T19:28:08.675Z'
+  'npm:ms:20170412':
+    - '@frctl/fractal > browser-sync > connect > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > browser-sync > connect > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > browser-sync > connect > finalhandler > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > browser-sync > connect > finalhandler > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > finalhandler > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > finalhandler > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > finalhandler > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > connect > finalhandler > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > finalhandler > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > finalhandler > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > finalhandler > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > connect > finalhandler > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > browser-sync > serve-index > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > browser-sync > serve-index > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-index > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-index > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-index > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-index > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-index > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-index > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-index > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-index > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > browser-sync > serve-static > send > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > browser-sync > serve-static > send > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-static > send > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-static > send > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-static > send > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-static > send > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > browser-sync > serve-static > send > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > browser-sync > serve-static > send > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-static > send > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-static > send > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-static > send > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > serve-static > send > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > serve-static > send > debug > ms':
+        patched: '2018-04-13T19:28:08.675Z'
+  'npm:qs:20170213':
+    - '@frctl/fractal > browser-sync > qs':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > browser-sync > qs':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > qs':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > qs':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > qs':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > @frctl/fractal > browser-sync > qs':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > qs':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > qs':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > qs':
+        patched: '2018-04-13T19:28:08.675Z'
+    - '@frctl/nunjucks > @frctl/fractal > @frctl/handlebars > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > qs':
+        patched: '2018-04-13T19:28:08.675Z'

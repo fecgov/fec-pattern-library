@@ -9,7 +9,8 @@
     "jquery": "^3.3.1",
     "jquery.inputmask": "3.3.4",
     "moment": "2.20.1",
-    "perfect-scrollbar": "0.6.2"
+    "perfect-scrollbar": "0.6.2",
+    "snyk": "^1.71.0"
   },
   "devDependencies": {
     "browserify": "^11.0.1",
@@ -32,6 +33,9 @@
     "build-icons-component": "gulp build-icons-component",
     "build-library": "fractal build",
     "start": "fractal start --sync",
-    "test": "echo No tests to run; exit 0"
-  }
+    "test": "echo No tests to run; exit 0",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
