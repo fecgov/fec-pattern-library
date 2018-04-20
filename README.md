@@ -1,4 +1,5 @@
 [![Dependency Status](https://gemnasium.com/badges/github.com/fecgov/fec-pattern-library.svg)](https://gemnasium.com/github.com/fecgov/fec-pattern-library)
+[![Known Vulnerabilities](https://snyk.io/test/github/fecgov/fec-pattern-library/badge.svg)](https://snyk.io/test/github/fecgov/fec-pattern-library)
 
 # FEC.gov Pattern Library
 
