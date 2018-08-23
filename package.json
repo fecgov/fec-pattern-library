@@ -10,7 +10,7 @@
     "jquery.inputmask": "3.3.4",
     "moment": "2.20.1",
     "perfect-scrollbar": "0.6.2",
-    "snyk": "^1.74.0"
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "browserify": "^11.0.1",
