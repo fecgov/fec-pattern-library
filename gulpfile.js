@@ -52,13 +52,13 @@ gulp.task('build-icon-classes', function() {
 });
 
 // build custom icons stylesheet, refresh images and fonts, and then build our complete stylesheet
-gulp.task('build-sass', ['build-icon-classes', 'clean-assets', 'copy-images', 'copy-fonts'], function() {
+gulp.task('build-sass', gulp.series(['build-icon-classes', 'clean-assets', 'copy-images', 'copy-fonts'], function() {
   return gulp.src('./static/scss/styles.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(cleanCSS())
     .pipe(rename('styles.css'))
     .pipe(gulp.dest('./public/css'));
-});
+}));
 
 // generate HTML template for icons documentation component
 gulp.task('build-icons-component', function() {
