@@ -2,27 +2,27 @@
   "name": "fec-pattern-library",
   "version": "0.1.0",
   "dependencies": {
-    "@frctl/fractal": "^1.1.7",
-    "@frctl/nunjucks": "^1.0.x",
     "a11y-dialog": "2.3.1",
     "aria-accordion": "^0.1.1",
     "jquery": "^3.3.1",
     "jquery.inputmask": "3.3.4",
     "moment": "2.20.1",
-    "perfect-scrollbar": "0.6.2",
-    "snyk": "^1.74.0"
+    "perfect-scrollbar": "0.6.2"
   },
   "devDependencies": {
-    "browserify": "^11.0.1",
+    "@frctl/fractal": "^1.1.7",
+    "@frctl/nunjucks": "^1.0.x",
+    "browserify": "^16.2.2",
     "del": "^3.0.0",
     "fec-cms": "git+https://github.com/fecgov/fec-cms.git#develop",
     "fs-extra": "^4.0.3",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-clean-css": "^3.9.3",
     "gulp-consolidate": "^0.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.2.1",
     "npm-run-all": "^4.1.2",
+    "snyk": "^1.95.3",
     "uglify-js": "^3.3.16",
     "underscore": "^1.8.3"
   },
