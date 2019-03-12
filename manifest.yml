@@ -1,5 +1,6 @@
 ---
 path: ./docs
+stack: cflinuxfs3
 applications:
 - name: fec-pattern-library
   memory: 64M
