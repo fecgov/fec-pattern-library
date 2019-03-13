@@ -31,6 +31,8 @@ cf api ${cloud_gov}
 cf target -o ${org} -s ${space}
 
 # If the app exists, use zero-downtime
+# make sure you have zero-downtime-push installed:
+# https://github.com/contraband/autopilot
 if cf app ${app}; then
   command=zero-downtime-push
 else
