@@ -1,8 +1,7 @@
-## Snyk vulnerabilities
 **package.json**
-[![Known Vulnerabilities](https://snyk.io/test/github/fecgov/fec-pattern-library/badge.svg?targetFile=package.json)](https://snyk.io/test/github/fecgov/fec-pattern-library?targetFile=package.json)
+[![Known Vulnerabilities](https://snyk.io/test/github/fecgov/fec-pattern-library/badge.svg)](https://snyk.io/test/github/fecgov/fec-pattern-library?targetFile=package.json)
 
-## FEC.gov Pattern Library
+# FEC.gov Pattern Library
 
 This is the collection of styles and design patterns that make up fec.gov. It is built on [Fractal](http://fractal.build/guide).
 
