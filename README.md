@@ -1,4 +1,5 @@
-[![Known Vulnerabilities](https://snyk.io/test/github/fecgov/fec-pattern-library/badge.svg)](https://snyk.io/test/github/fecgov/fec-pattern-library)
+**package.json**
+[![Known Vulnerabilities](https://snyk.io/test/github/fecgov/fec-pattern-library/badge.svg)](https://snyk.io/test/github/fecgov/fec-pattern-library?targetFile=package.json)
 
 # FEC.gov Pattern Library
 
