@@ -288,6 +288,10 @@
   @include u-icon-bg($piggy-bank, $primary);
 }
 
+.i-play-button {
+  @include u-icon-bg($play-button, $primary);
+}
+
 .i-plus-circle {
   @include u-icon-bg($plus-circle, $primary);
 }

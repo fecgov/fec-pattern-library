@@ -7,6 +7,7 @@ Radio buttons allow users to select exactly one option from a visible list.
 ## When to consider something else
 - Consider checkboxes if users need to select more than one option or if there is only one item to select.
 - Consider a dropdown if you don’t have enough space to list out all available options.
+- Consider toggles buttons which are styled radio buttons used when the interaction indicates whether a setting is on or off for an entire view.
 - If users should be able to select zero of the options.
 
 ### Guidance from the [U.S. Web Design System](https://designsystem.digital.gov/components/form-controls/#radio-buttons)
