@@ -16,13 +16,12 @@ if [[ -z ${org} || -z ${space} || -z ${app} ]]; then
   exit 1
 fi
 
-cf api ${cloud_gov}
-
 (
   set +x # Disable debugging
 
   # Log in if necessary
   if [[ -n ${FEC_CF_USERNAME_DEV} && -n ${FEC_CF_PASSWORD_DEV} ]]; then
+    cf api ${cloud_gov}
     cf auth "${FEC_CF_USERNAME_DEV}" "${FEC_CF_PASSWORD_DEV}"
   fi
 )
