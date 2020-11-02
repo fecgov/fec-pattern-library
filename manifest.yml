@@ -1,9 +1,12 @@
 ---
-path: ./docs
-stack: cflinuxfs3
 applications:
 - name: fec-pattern-library
+  instances: 1
   memory: 64M
-  buildpack: staticfile_buildpack
+  disk_quota: 256M
+  buildpacks:
+    - staticfile_buildpack
   env:
     FORCE_HTTPS: true
+  path: ./docs
+  stack: cflinuxfs3

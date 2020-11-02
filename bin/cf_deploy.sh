@@ -29,13 +29,11 @@ fi
 # Target space
 cf target -o ${org} -s ${space}
 
-# If the app exists, use zero-downtime
-# make sure you have zero-downtime-push installed:
-# https://github.com/contraband/autopilot
+# If the app exists, use rolling deployment
 if cf app ${app}; then
-  command=zero-downtime-push
+  command="push --strategy rolling"
 else
-  command=push
+  command="push"
 fi
 
 # Deploy web-app
