@@ -5,7 +5,7 @@
     "ajv": "^6.12.3",
     "a11y-dialog": "2.3.1",
     "aria-accordion": "^0.1.1",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.0",
     "jquery.inputmask": "3.3.4",
     "moment": "2.20.1",
     "perfect-scrollbar": "0.6.2"
