@@ -8,7 +8,7 @@
     "jquery": "^3.5.1",
     "jquery.inputmask": "3.3.4",
     "moment": "2.20.1",
-    "perfect-scrollbar": "0.6.2"
+    "perfect-scrollbar": "0.8.1"
   },
   "devDependencies": {
     "@frctl/fractal": "^1.1.7",
