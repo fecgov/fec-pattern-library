@@ -52,6 +52,10 @@
   @include u-icon-bg($arrow-right, $primary);
 }
 
+.i-arrow-target {
+  @include u-icon-bg($arrow-target, $primary);
+}
+
 .i-arrow-up-border {
   @include u-icon-bg($arrow-up-border, $primary);
 }
@@ -120,6 +124,10 @@
   @include u-icon-bg($checklist, $primary);
 }
 
+.i-clipboard-checklist {
+  @include u-icon-bg($clipboard-checklist, $primary);
+}
+
 .i-clock-reverse {
   @include u-icon-bg($clock-reverse, $primary);
 }
@@ -144,6 +152,10 @@
   @include u-icon-bg($data-flag, $primary);
 }
 
+.i-decree {
+  @include u-icon-bg($decree, $primary);
+}
+
 .i-direction-sign {
   @include u-icon-bg($direction-sign, $primary);
 }
@@ -162,6 +174,10 @@
 
 .i-election {
   @include u-icon-bg($election, $primary);
+}
+
+.i-exclamation-bubble {
+  @include u-icon-bg($exclamation-bubble, $primary);
 }
 
 .i-facebook-circle {
@@ -276,6 +292,10 @@
   @include u-icon-bg($notebook, $primary);
 }
 
+.i-org-chart {
+  @include u-icon-bg($org-chart, $primary);
+}
+
 .i-papers {
   @include u-icon-bg($papers, $primary);
 }
@@ -322,6 +342,10 @@
 
 .i-share {
   @include u-icon-bg($share, $primary);
+}
+
+.i-shield-scales {
+  @include u-icon-bg($shield-scales, $primary);
 }
 
 .i-shield {
