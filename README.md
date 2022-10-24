@@ -8,9 +8,9 @@ This is the collection of styles and design patterns that make up fec.gov. It is
 It is also viewable online at: <https://fec-pattern-library.app.cloud.gov/>
 
 ## Installation
-Make sure you are on the correct Node.js version (Currently version 14.7):
-``
-nvm use 14.17
+Make sure you are on the correct Node.js version (Currently version 8):
+```
+nvm use 8
 ```
 
 Install dependencies:
