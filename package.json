@@ -2,18 +2,19 @@
   "name": "fec-pattern-library",
   "version": "0.1.0",
   "dependencies": {
-    "ajv": "^6.12.3",
+    "ajv": "^6.12.6",
     "a11y-dialog": "2.3.1",
     "aria-accordion": "^0.1.1",
-    "jquery": "^3.5.1",
+    "jquery": "^3.6.3",
     "jquery.inputmask": "3.3.4",
     "moment": "2.29.4",
     "perfect-scrollbar": "0.6.2"
   },
   "devDependencies": {
-    "@frctl/fractal": "^1.1.7",
+    "@frctl/fractal": "1.4.1",
     "@frctl/nunjucks": "^1.0.x",
-    "browserify": "^16.3.0",
+    "@frctl/mandelbrot": "1.5.0",
+    "browserify": "^16.5.2",
     "del": "^3.0.0",
     "fec-cms": "git+https://github.com/fecgov/fec-cms.git#develop",
     "fs-extra": "^4.0.3",
@@ -21,11 +22,12 @@
     "gulp-clean-css": "^3.10.0",
     "gulp-consolidate": "^0.2.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^3.2.1",
+    "gulp-dart-sass": "^1.0.2",
     "npm-run-all": "^4.1.5",
-    "snyk": "^1.193.2",
-    "uglify-js": "^3.6.0",
-    "underscore": "^1.9.1"
+    "sass": "^1.26.10",
+    "snyk": "^1.1105.0",
+    "uglify-js": "^3.17.4",
+    "underscore": "^1.13.6"
   },
   "scripts": {
     "build": "npm-run-all --parallel build-sass build-js --serial build-library",

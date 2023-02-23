@@ -4,7 +4,7 @@ var fs = require('fs-extra');
 var gulp = require('gulp');
 var del = require('del');
 var consolidate = require('gulp-consolidate');
-var sass = require('gulp-sass');
+var sass = require('gulp-dart-sass');
 var cleanCSS = require('gulp-clean-css');
 var rename = require('gulp-rename');
 
@@ -34,7 +34,7 @@ gulp.task('build-icon-classes', function() {
     return _(fs.readdirSync('./node_modules/fec-cms/fec/fec/static/icons/output/'))
       .chain()
       .filter(function (filename) {
-        return filename.substr(-4) === '.svg';
+        return filename.slice(-4) === '.svg';
       }).map(function (filename) {
         return {
           name: filename.split('.')[0],
@@ -66,7 +66,7 @@ gulp.task('build-icons-component', function() {
     return _(fs.readdirSync('./node_modules/fec-cms/fec/fec/static/icons/output/'))
       .chain()
       .filter(function (filename) {
-        return filename.substr(-4) === '.svg';
+        return filename.slice(-4) === '.svg';
       }).map(function (filename) {
         return {
           name: filename.split('.')[0],
