@@ -79,4 +79,4 @@ workflows:
             - build
           filters:
             branches:
-              only: test-upgrade-stack
+              only: master
