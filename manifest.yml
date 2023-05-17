@@ -5,7 +5,7 @@ applications:
   memory: 64M
   disk_quota: 256M
   buildpacks:
-    - staticfile_buildpack
+    - nginx_buildpack
   env:
     FORCE_HTTPS: true
   path: ./docs
