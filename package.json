@@ -22,7 +22,7 @@
     "gulp-clean-css": "^3.10.0",
     "gulp-consolidate": "^0.2.0",
     "gulp-rename": "^1.4.0",
-    "gulp-dart-sass": "^1.0.2",
+    "gulp-sass": "^5.1.0",
     "npm-run-all": "^4.1.5",
     "sass": "^1.26.10",
     "snyk": "^1.1105.0",

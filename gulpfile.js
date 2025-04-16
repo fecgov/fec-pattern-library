@@ -4,7 +4,7 @@ var fs = require('fs-extra');
 var gulp = require('gulp');
 var del = require('del');
 var consolidate = require('gulp-consolidate');
-var sass = require('gulp-dart-sass');
+var sass = require('gulp-sass')(require('sass'));
 var cleanCSS = require('gulp-clean-css');
 var rename = require('gulp-rename');
 
