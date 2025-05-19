@@ -76,6 +76,10 @@
   @include u-icon-bg($bang, $primary);
 }
 
+.i-bluesky-circle {
+  @include u-icon-bg($bluesky-circle, $primary);
+}
+
 .i-book {
   @include u-icon-bg($book, $primary);
 }
@@ -174,6 +178,10 @@
 
 .i-election {
   @include u-icon-bg($election, $primary);
+}
+
+.i-example-document {
+  @include u-icon-bg($example-document, $primary);
 }
 
 .i-exclamation-bubble {
@@ -418,6 +426,10 @@
 
 .i-x-circle {
   @include u-icon-bg($x-circle, $primary);
+}
+
+.i-x-twitter-circle {
+  @include u-icon-bg($x-twitter-circle, $primary);
 }
 
 .i-x {
