@@ -36,6 +36,10 @@
   @include u-icon-bg($arrow-left-circle, $primary);
 }
 
+.i-arrow-left-double {
+  @include u-icon-bg($arrow-left-double, $primary);
+}
+
 .i-arrow-left {
   @include u-icon-bg($arrow-left, $primary);
 }
@@ -46,6 +50,10 @@
 
 .i-arrow-right-circle {
   @include u-icon-bg($arrow-right-circle, $primary);
+}
+
+.i-arrow-right-double {
+  @include u-icon-bg($arrow-right-double, $primary);
 }
 
 .i-arrow-right {
@@ -74,6 +82,10 @@
 
 .i-bang {
   @include u-icon-bg($bang, $primary);
+}
+
+.i-bluesky-circle {
+  @include u-icon-bg($bluesky-circle, $primary);
 }
 
 .i-book {
@@ -174,6 +186,10 @@
 
 .i-election {
   @include u-icon-bg($election, $primary);
+}
+
+.i-example-document {
+  @include u-icon-bg($example-document, $primary);
 }
 
 .i-exclamation-bubble {
@@ -418,6 +434,10 @@
 
 .i-x-circle {
   @include u-icon-bg($x-circle, $primary);
+}
+
+.i-x-twitter-circle {
+  @include u-icon-bg($x-twitter-circle, $primary);
 }
 
 .i-x {
