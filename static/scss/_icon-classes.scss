@@ -36,6 +36,10 @@
   @include u-icon-bg($arrow-left-circle, $primary);
 }
 
+.i-arrow-left-double {
+  @include u-icon-bg($arrow-left-double, $primary);
+}
+
 .i-arrow-left {
   @include u-icon-bg($arrow-left, $primary);
 }
@@ -46,6 +50,10 @@
 
 .i-arrow-right-circle {
   @include u-icon-bg($arrow-right-circle, $primary);
+}
+
+.i-arrow-right-double {
+  @include u-icon-bg($arrow-right-double, $primary);
 }
 
 .i-arrow-right {
