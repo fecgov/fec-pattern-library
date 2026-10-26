@@ -10,10 +10,10 @@ It is also viewable online at: <https://fec-pattern-library.app.cloud.gov/>
 
 ## Installation
 
-Make sure you are on the correct Node.js version (Currently version 22.1.0):
+Make sure you are on the correct Node.js version (Currently version 24.16.0):
 
 ```zsh
-nvm use 22.1.0
+nvm use 24.16.0
 ```
 
 Install dependencies:

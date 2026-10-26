@@ -39,5 +39,9 @@
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
-  "snyk": true
+  "snyk": true,
+  "engines": {
+    "node": "24.16.0",
+    "npm": "11.13.0"
+  }
 }

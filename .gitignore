@@ -2,7 +2,10 @@ node_modules
 !docs/.gitkeep
 docs/
 
+.DS_Store
+
 public/css/
 public/js/main.js
 public/img/
 public/fonts/
+.vscode/settings.json
